@@ -92,11 +92,11 @@ _Confirm review complete._
 Read about [services available to CNCF projects](https://contribute.cncf.io/resources/project-services/).
 <!-- field-guide:end -->
 
-- [ ] Review services available for your project at the CNCF <!-- checklist:cncf-services-review --> (Issue: [#30](https://github.com/hivecommons/cncf-sandbox-onboarding/issues/30))
+- [x] Review services available for your project at the CNCF <!-- checklist:cncf-services-review --> (PR: [#45](https://github.com/hivecommons/cncf-sandbox-onboarding/pull/45))
 
 **Evidence:**
 
-_Confirm review complete._
+- Maintainer @clubanderson reviewed https://www.cncf.io/services-for-projects/ (and the Sandbox services summary) on 2026-10-02 — attested.
 
 ### online-program-guidelines
 
