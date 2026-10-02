@@ -15,8 +15,8 @@ This repository helps you track and complete [CNCF Sandbox onboarding](https://g
 ## Onboarding progress
 
 <!-- checklist-progress:start -->
-> **Onboarding progress:** **0 / 36** items complete (0%)  
-> `░░░░░░░░░░░░░░░░░░░░` 0%
+> **Onboarding progress:** **1 / 36** items complete (3%)  
+> `█░░░░░░░░░░░░░░░░░░░` 3%
 <!-- checklist-progress:end -->
 
 ## Onboarding checklist
@@ -52,7 +52,7 @@ Each row links to the matching section in [ONBOARDING.md](ONBOARDING.md). A PR w
 - ⬜ [Import all project repos into a license scanning service](ONBOARDING.md#license-scan-import) (Issue: [#11](https://github.com/hivecommons/cncf-sandbox-onboarding/issues/11))
 - ⬜ [CNCF staff: add the project to DevStats](ONBOARDING.md#devstats) (Issue: [#10](https://github.com/hivecommons/cncf-sandbox-onboarding/issues/10))
 - ⬜ [CNCF staff: add the project to CLOMonitor](ONBOARDING.md#clomonitor) (Issue: [#9](https://github.com/hivecommons/cncf-sandbox-onboarding/issues/9))
-- ⬜ [CNCF staff: add the project to LFX Insights](ONBOARDING.md#lfx-insights-onboarding) (Issue: [#8](https://github.com/hivecommons/cncf-sandbox-onboarding/issues/8))
+- ✅ [CNCF staff: add the project to LFX Insights](ONBOARDING.md#lfx-insights-onboarding) (PR: [#38](https://github.com/hivecommons/cncf-sandbox-onboarding/pull/38))
 - ⬜ [CNCF staff: activate the project in the LFX Project Control Center](ONBOARDING.md#lfx-pcc-activation) (Issue: [#7](https://github.com/hivecommons/cncf-sandbox-onboarding/issues/7))
 - ⬜ [CNCF staff: add the project to the Cloud Native Landscape](ONBOARDING.md#landscape-listing-onboarding) (Issue: [#6](https://github.com/hivecommons/cncf-sandbox-onboarding/issues/6))
 - ⬜ [CNCF staff: add the maintainers team to the license scanner](ONBOARDING.md#license-scanner-team) (Issue: [#5](https://github.com/hivecommons/cncf-sandbox-onboarding/issues/5))

@@ -364,7 +364,7 @@ _Link to the project's CLOMonitor report card._
 CNCF staff adds the project to [LFX Insights](https://insights.linuxfoundation.org/).
 <!-- field-guide:end -->
 
-- [ ] CNCF staff: add the project to LFX Insights <!-- checklist:lfx-insights-onboarding --> (Issue: [#8](https://github.com/hivecommons/cncf-sandbox-onboarding/issues/8))
+- [x] CNCF staff: add the project to LFX Insights <!-- checklist:lfx-insights-onboarding --> (PR: [#38](https://github.com/hivecommons/cncf-sandbox-onboarding/pull/38))
 
 **Evidence:**
 
