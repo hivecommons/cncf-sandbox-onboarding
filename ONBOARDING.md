@@ -128,7 +128,7 @@ _Confirm review complete._
 Optional: book time with CNCF staff to walk through available resources, work through onboarding tasks together, or ask questions.
 <!-- field-guide:end -->
 
-- [ ] Optional: book time with CNCF staff <!-- checklist:cncf-staff-office-hours --> (Issue: [#27](https://github.com/hivecommons/cncf-sandbox-onboarding/issues/27))
+- [x] Optional: book time with CNCF staff <!-- checklist:cncf-staff-office-hours --> (Issue: [#27](https://github.com/hivecommons/cncf-sandbox-onboarding/issues/27))
 
 **Evidence:**
 
