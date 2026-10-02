@@ -290,7 +290,8 @@ Add the Linux Foundation footer to your website per [LF branding guidelines](htt
 
 **Evidence:**
 
-_Link to footer on the site or README section._
+- Verified live footer on https://hivecommons.dev/ on 2026-10-02: the page includes "© 2026 The Linux Foundation / The Hive Commons authors" and the Linux Foundation trademark sentence with a link to https://www.linuxfoundation.org/trademark-usage.
+- Source fix merged in [hivecommons/hivecommons.github.io#51](https://github.com/hivecommons/hivecommons.github.io/pull/51), updating the shared footer markup on the site pages.
 
 ### governance-doc
 
