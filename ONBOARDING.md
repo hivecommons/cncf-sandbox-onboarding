@@ -142,11 +142,13 @@ _Meeting date, or N/A if not needed._
 This makes the project transferable to the CNCF's GitHub Enterprise account. If it's already in another GitHub Enterprise account, remove it from there first.
 <!-- field-guide:end -->
 
-- [ ] Move the project to its own separate neutral GitHub organization <!-- checklist:neutral-github-org --> (Issue: [#26](https://github.com/hivecommons/cncf-sandbox-onboarding/issues/26))
+- [x] Move the project to its own separate neutral GitHub organization <!-- checklist:neutral-github-org --> (PR: [#39](https://github.com/hivecommons/cncf-sandbox-onboarding/pull/39))
 
 **Evidence:**
 
-_Neutral GitHub org name/URL._
+- Verified org: [hivecommons](https://github.com/hivecommons).
+- Project repositories live under the neutral org, including [hive](https://github.com/hivecommons/hive), [hivecommons.github.io](https://github.com/hivecommons/hivecommons.github.io), and this onboarding tracker. `gh repo list hivecommons --limit 100` showed all current public org repos in `hivecommons`.
+- Owner check: `gh api orgs/hivecommons/members?role=admin` was permitted and returned `clubanderson` and `kellyaa`; no IBM account is visible as an org admin/owner from the permitted API response.
 
 ### ghe-invite-accepted
 
