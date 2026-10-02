@@ -15,8 +15,8 @@ This repository helps you track and complete [CNCF Sandbox onboarding](https://g
 ## Onboarding progress
 
 <!-- checklist-progress:start -->
-> **Onboarding progress:** **10 / 36** items complete (28%)  
-> `██████░░░░░░░░░░░░░░` 28%
+> **Onboarding progress:** **11 / 36** items complete (31%)  
+> `██████░░░░░░░░░░░░░░` 31%
 <!-- checklist-progress:end -->
 
 ## Onboarding checklist
@@ -49,7 +49,7 @@ Each row links to the matching section in [ONBOARDING.md](ONBOARDING.md). A PR w
 - ✅ [Start a GOVERNANCE.md documenting open governance](ONBOARDING.md#governance-doc) (PR: [#41](https://github.com/hivecommons/cncf-sandbox-onboarding/pull/41))
 - ✅ [Start a SECURITY.md security policy](ONBOARDING.md#security-doc) (PR: [#42](https://github.com/hivecommons/cncf-sandbox-onboarding/pull/42))
 - ✅ [Start an OpenSSF Best Practices Badge](ONBOARDING.md#openssf-badge) (PR: [#43](https://github.com/hivecommons/cncf-sandbox-onboarding/pull/43))
-- ⬜ [Import all project repos into a license scanning service](ONBOARDING.md#license-scan-import) (Issue: [#11](https://github.com/hivecommons/cncf-sandbox-onboarding/issues/11))
+- ✅ [Import all project repos into a license scanning service](ONBOARDING.md#license-scan-import) (PR: [#47](https://github.com/hivecommons/cncf-sandbox-onboarding/pull/47))
 - ⬜ [CNCF staff: add the project to DevStats](ONBOARDING.md#devstats) (Issue: [#10](https://github.com/hivecommons/cncf-sandbox-onboarding/issues/10))
 - ⬜ [CNCF staff: add the project to CLOMonitor](ONBOARDING.md#clomonitor) (Issue: [#9](https://github.com/hivecommons/cncf-sandbox-onboarding/issues/9))
 - ✅ [CNCF staff: add the project to LFX Insights](ONBOARDING.md#lfx-insights-onboarding) (PR: [#38](https://github.com/hivecommons/cncf-sandbox-onboarding/pull/38))

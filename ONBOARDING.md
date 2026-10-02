@@ -336,11 +336,14 @@ Register and begin working toward an [OpenSSF Best Practices Badge](https://www.
 Import all repos in scope into CNCF FOSSA or CNCF Snyk (see `license-policy-review`).
 <!-- field-guide:end -->
 
-- [ ] Import all project repos into a license scanning service <!-- checklist:license-scan-import --> (Issue: [#11](https://github.com/hivecommons/cncf-sandbox-onboarding/issues/11))
+- [x] Import all project repos into a license scanning service <!-- checklist:license-scan-import --> (PR: [#47](https://github.com/hivecommons/cncf-sandbox-onboarding/pull/47))
 
 **Evidence:**
 
-_Service used and confirmation all repos are imported._
+- FOSSA chosen for CNCF license scanning; KubeStellar uses the CNCF FOSSA pattern/badge, and Hive Commons requested import into the CNCF FOSSA organization via https://github.com/cncf/sandbox/issues/516#issuecomment-5956289195.
+- Hive workflow/badge PR opened: [hivecommons/hive#10044](https://github.com/hivecommons/hive/pull/10044), using pinned `fossas/fossa-action` and the `git+github.com/hivecommons/hive` FOSSA project slug.
+- Pending: CNCF FOSSA import must complete, CNCF/staff must add the `hivecommons` maintainers team (tracked in staff item #5; see https://github.com/hivecommons/cncf-sandbox-onboarding/issues/5#issuecomment-5956289942), and maintainers must configure the repository `FOSSA_API_KEY` secret issued by CNCF FOSSA/Service Desk before this item can close.
+- Local tracker note: https://github.com/hivecommons/cncf-sandbox-onboarding/issues/11#issuecomment-5956289562.
 
 ## CNCF staff tasks (track and follow up)
 
