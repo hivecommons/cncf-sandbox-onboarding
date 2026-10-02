@@ -105,11 +105,12 @@ _Confirm review complete._
 Read the [CNCF project proposal process and requirements](https://github.com/cncf/toc/blob/main/process/README.md).
 <!-- field-guide:end -->
 
-- [ ] Review the project proposal process and requirements <!-- checklist:project-proposal-process --> (Issue: [#31](https://github.com/hivecommons/cncf-sandbox-onboarding/issues/31))
+- [x] Review the project proposal process and requirements <!-- checklist:project-proposal-process --> (PR: [#51](https://github.com/hivecommons/cncf-sandbox-onboarding/pull/51))
 
 **Evidence:**
 
-_Confirm review complete._
+- Maintainer @clubanderson reviewed the [CNCF project proposal process and requirements](https://github.com/cncf/toc/blob/main/process/README.md) on 2026-10-02.
+- Hive Commons was accepted as a CNCF Sandbox project on 2026-09-29 and is tracked in [cncf/sandbox#516](https://github.com/cncf/sandbox/issues/516).
 
 ### cncf-services-review
 
