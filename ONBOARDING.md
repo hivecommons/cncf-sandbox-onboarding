@@ -305,11 +305,13 @@ Document written, open governance in a `GOVERNANCE.md` file at the root of your 
 Document a security policy in a `SECURITY.md` file at the root of your repo. See [CNCF security guidelines](https://contribute.cncf.io/maintainers/security/security-guidelines/#3-securitymd).
 <!-- field-guide:end -->
 
-- [ ] Start a SECURITY.md security policy <!-- checklist:security-doc --> (Issue: [#13](https://github.com/hivecommons/cncf-sandbox-onboarding/issues/13))
+- [x] Start a SECURITY.md security policy <!-- checklist:security-doc --> (PR: [#42](https://github.com/hivecommons/cncf-sandbox-onboarding/pull/42))
 
 **Evidence:**
 
-_Link to SECURITY.md._
+- Verified [hivecommons/hive SECURITY.md](https://github.com/hivecommons/hive/blob/v5/SECURITY.md).
+- Reporting channel: reporters are instructed to use GitHub private vulnerability reporting from the repository Security tab; if unavailable, they may contact a repository maintainer privately.
+- Additional assessment: [src/docs/security-self-assessment.md](https://github.com/hivecommons/hive/blob/v5/src/docs/security-self-assessment.md) documents the CNCF TAG-Security-style self-assessment and links the security policy.
 
 ### openssf-badge
 
