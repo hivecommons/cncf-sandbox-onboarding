@@ -286,7 +286,7 @@ Explicitly reference the CNCF Code of Conduct (or your adopted version) in the p
 Add the Linux Foundation footer to your website per [LF branding guidelines](https://github.com/cncf/foundation/blob/main/website-guidelines.md). If you don't have a dedicated website, adopt these guidelines for `README.md` instead.
 <!-- field-guide:end -->
 
-- [ ] Add the LF footer to your website (or README if no website) <!-- checklist:lf-footer --> (Issue: [#15](https://github.com/hivecommons/cncf-sandbox-onboarding/issues/15))
+- [x] Add the LF footer to your website (or README if no website) <!-- checklist:lf-footer --> (PR: [#49](https://github.com/hivecommons/cncf-sandbox-onboarding/pull/49))
 
 **Evidence:**
 
