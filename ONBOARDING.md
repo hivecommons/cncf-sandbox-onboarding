@@ -262,7 +262,9 @@ Create/verify `MAINTAINERS.md` and open a PR against the aggregated CNCF maintai
 
 **Evidence:**
 
-_Link to MAINTAINERS.md and the PR against the aggregated list._
+- Verified Hive Commons maintains CNCF project metadata in [hivecommons/.project](https://github.com/hivecommons/.project), including [maintainers.yaml](https://github.com/hivecommons/.project/blob/main/maintainers.yaml) with five maintainers: @clubanderson, @hanthor, @Danathar, @nicholasjackson, and @kellyaa.
+- Also verified Hive's repository-level [OWNERS](https://github.com/hivecommons/hive/blob/v5/OWNERS) lists @clubanderson, @hanthor, and @Danathar as approvers/reviewers for the hive repo.
+- The legacy aggregated CSV PR [cncf/foundation#1550](https://github.com/cncf/foundation/pull/1550) was closed because `project-maintainers.csv` is legacy for new projects; Riaan directed use of the `.project` repository on [cncf/sandbox#516](https://github.com/cncf/sandbox/issues/516#issuecomment-5957740882), and the maintainer followed up with the created `.project` repo at [cncf/sandbox#516](https://github.com/cncf/sandbox/issues/516#issuecomment-5958105966).
 
 ### maintainer-emails
 
