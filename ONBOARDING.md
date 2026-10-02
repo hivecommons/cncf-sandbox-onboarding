@@ -249,7 +249,7 @@ _Link to the artwork PR._
 If you use Google Analytics, add `projects@cncf.io` as an admin of your existing account so it can be moved to a CNCF-managed account. If you don't have GA, note your current analytics setup instead.
 <!-- field-guide:end -->
 
-- [ ] Transfer website analytics to the CNCF <!-- checklist:analytics-transfer --> (Issue: [#20](https://github.com/hivecommons/cncf-sandbox-onboarding/issues/20))
+- [x] Transfer website analytics to the CNCF <!-- checklist:analytics-transfer --> (PR: [#56](https://github.com/hivecommons/cncf-sandbox-onboarding/pull/56))
 
 **Evidence:**
 
