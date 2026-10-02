@@ -90,14 +90,16 @@ _Date Contribution Agreement was signed, or status if pending._
 ### technical-leadership-principles
 
 <!-- field-guide:start -->
-Read the [Technical Leadership Principles](https://contribute.cncf.io/maintainers/community/leadership-principles/), which outline expected behavior for maintainers in leadership roles.
+Read the [Technical Leadership Principles](https://github.com/cncf/toc/blob/main/PRINCIPLES.md#technical-leadership-principles) from CNCF TOC Principles v1.0 and the [technical leadership principles enforcement guidance](https://github.com/cncf/toc/blob/main/resources/tech_leadership_principles_guidance.md), which outline expected behavior for maintainers in leadership roles.
 <!-- field-guide:end -->
 
 - [ ] Review the Technical Leadership Principles <!-- checklist:technical-leadership-principles --> (Issue: [#32](https://github.com/hivecommons/cncf-sandbox-onboarding/issues/32))
 
 **Evidence:**
 
-_Confirm review complete._
+- Maintainer @clubanderson reviewed the [CNCF TOC Technical Leadership Principles](https://github.com/cncf/toc/blob/main/PRINCIPLES.md#technical-leadership-principles) and [enforcement guidance](https://github.com/cncf/toc/blob/main/resources/tech_leadership_principles_guidance.md) on 2026-10-02.
+- The five leaders currently bound by this for Hive are the maintainers in [hivecommons/.project maintainers.yaml](https://github.com/hivecommons/.project/blob/main/maintainers.yaml): @clubanderson, @hanthor, @Danathar, @nicholasjackson, and @kellyaa.
+- Link check note: replaced the stale template URL that returned 404 and updated the LF website guidelines link to the current `policies-guidance/website-guidelines.md` path.
 
 ### project-proposal-process
 
@@ -305,7 +307,7 @@ Explicitly reference the CNCF Code of Conduct (or your adopted version) in the p
 ### lf-footer
 
 <!-- field-guide:start -->
-Add the Linux Foundation footer to your website per [LF branding guidelines](https://github.com/cncf/foundation/blob/main/website-guidelines.md). If you don't have a dedicated website, adopt these guidelines for `README.md` instead.
+Add the Linux Foundation footer to your website per [LF branding guidelines](https://github.com/cncf/foundation/blob/main/policies-guidance/website-guidelines.md). If you don't have a dedicated website, adopt these guidelines for `README.md` instead.
 <!-- field-guide:end -->
 
 - [x] Add the LF footer to your website (or README if no website) <!-- checklist:lf-footer --> (PR: [#49](https://github.com/hivecommons/cncf-sandbox-onboarding/pull/49))
