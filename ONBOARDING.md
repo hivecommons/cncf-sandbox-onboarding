@@ -276,7 +276,9 @@ Explicitly reference the CNCF Code of Conduct (or your adopted version) in the p
 
 **Evidence:**
 
-_Link to the README section._
+- Verified the CNCF Code of Conduct reference in [hivecommons/hive README.md](https://github.com/hivecommons/hive/blob/v5/README.md) and [src/README.md](https://github.com/hivecommons/hive/blob/v5/src/README.md) on branch `v5`.
+- Verified [CODE_OF_CONDUCT.md](https://github.com/hivecommons/hive/blob/v5/CODE_OF_CONDUCT.md) adopts the CNCF Code of Conduct at https://github.com/cncf/foundation/blob/main/code-of-conduct.md.
+- Verified the website repository [README.md](https://github.com/hivecommons/hivecommons.github.io/blob/main/README.md) references the CNCF Code of Conduct after [hivecommons/hivecommons.github.io#50](https://github.com/hivecommons/hivecommons.github.io/pull/50) merged; Hive root README fix was [hivecommons/hive#10039](https://github.com/hivecommons/hive/pull/10039).
 
 ### lf-footer
 
