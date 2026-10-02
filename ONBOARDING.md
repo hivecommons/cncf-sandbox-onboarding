@@ -434,11 +434,11 @@ _Confirmation date once activated._
 After PCC activation, CNCF staff adds the project to the [Cloud Native Landscape](https://landscape.cncf.io/), including the `lfx_slug` in the landscape configuration file.
 <!-- field-guide:end -->
 
-- [ ] CNCF staff: add the project to the Cloud Native Landscape <!-- checklist:landscape-listing-onboarding --> (Issue: [#6](https://github.com/hivecommons/cncf-sandbox-onboarding/issues/6))
+- [x] CNCF staff: add the project to the Cloud Native Landscape <!-- checklist:landscape-listing-onboarding --> (PR: [#57](https://github.com/hivecommons/cncf-sandbox-onboarding/pull/57))
 
 **Evidence:**
 
-_Link to the landscape PR/entry._
+- 2026-10-02: Landscape PR merged — https://github.com/cncf/landscape/pull/5181 (Hive Commons added under CNCF Sandbox; entry will appear at https://landscape.cncf.io/ on next deploy).
 
 ### license-scanner-team
 
