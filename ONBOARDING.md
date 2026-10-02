@@ -277,7 +277,7 @@ Create/verify `MAINTAINERS.md` and open a PR against the aggregated CNCF maintai
 Email maintainer addresses to `project-onboarding@cncf.io` (not shared publicly). Also link each maintainer's GitHub ID with their LF profile.
 <!-- field-guide:end -->
 
-- [ ] Provide maintainer emails for mailing list and Service Desk access <!-- checklist:maintainer-emails --> (Issue: [#18](https://github.com/hivecommons/cncf-sandbox-onboarding/issues/18))
+- [x] Provide maintainer emails for mailing list and Service Desk access <!-- checklist:maintainer-emails --> (Issue: [#18](https://github.com/hivecommons/cncf-sandbox-onboarding/issues/18))
 
 **Evidence:**
 

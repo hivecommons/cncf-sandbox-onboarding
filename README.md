@@ -15,8 +15,8 @@ This repository helps you track and complete [CNCF Sandbox onboarding](https://g
 ## Onboarding progress
 
 <!-- checklist-progress:start -->
-> **Onboarding progress:** **18 / 36** items complete (50%)  
-> `██████████░░░░░░░░░░` 50%
+> **Onboarding progress:** **19 / 36** items complete (53%)  
+> `███████████░░░░░░░░░` 53%
 <!-- checklist-progress:end -->
 
 ## Onboarding checklist
@@ -42,7 +42,7 @@ Each row links to the matching section in [ONBOARDING.md](ONBOARDING.md). A PR w
 - ⬜ [Submit a pull request with your artwork](ONBOARDING.md#artwork-pr) (Issue: [#21](https://github.com/hivecommons/cncf-sandbox-onboarding/issues/21))
 - ⬜ [Transfer website analytics to the CNCF](ONBOARDING.md#analytics-transfer) (Issue: [#20](https://github.com/hivecommons/cncf-sandbox-onboarding/issues/20))
 - ✅ [Create a maintainer list and add it to the aggregated CNCF maintainer list](ONBOARDING.md#maintainer-list-pr) (PR: [#52](https://github.com/hivecommons/cncf-sandbox-onboarding/pull/52))
-- ⬜ [Provide maintainer emails for mailing list and Service Desk access](ONBOARDING.md#maintainer-emails) (Issue: [#18](https://github.com/hivecommons/cncf-sandbox-onboarding/issues/18))
+- ✅ [Provide maintainer emails for mailing list and Service Desk access](ONBOARDING.md#maintainer-emails) (Issue: [#18](https://github.com/hivecommons/cncf-sandbox-onboarding/issues/18))
 - ✅ [Ensure the DCO app is enabled for all project GitHub repositories](ONBOARDING.md#dco-enabled) (PR: [#40](https://github.com/hivecommons/cncf-sandbox-onboarding/pull/40))
 - ✅ [Reference the CNCF Code of Conduct in README.md](ONBOARDING.md#coc-in-readme) (PR: [#48](https://github.com/hivecommons/cncf-sandbox-onboarding/pull/48))
 - ✅ [Add the LF footer to your website (or README if no website)](ONBOARDING.md#lf-footer) (PR: [#49](https://github.com/hivecommons/cncf-sandbox-onboarding/pull/49))
