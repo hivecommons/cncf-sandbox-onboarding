@@ -15,8 +15,8 @@ This repository helps you track and complete [CNCF Sandbox onboarding](https://g
 ## Onboarding progress
 
 <!-- checklist-progress:start -->
-> **Onboarding progress:** **16 / 36** items complete (44%)  
-> `█████████░░░░░░░░░░░` 44%
+> **Onboarding progress:** **18 / 36** items complete (50%)  
+> `██████████░░░░░░░░░░` 50%
 <!-- checklist-progress:end -->
 
 ## Onboarding checklist
@@ -25,13 +25,13 @@ Each row links to the matching section in [ONBOARDING.md](ONBOARDING.md). A PR w
 
 <!-- onboarding-dashboard:start -->
 - ✅ [Review and understand the CNCF IP Policy](ONBOARDING.md#ip-policy-review) (PR: [#50](https://github.com/hivecommons/cncf-sandbox-onboarding/pull/50))
-- ⬜ [Review and understand the CNCF Third Party License Policy](ONBOARDING.md#license-policy-review) (Issue: [#35](https://github.com/hivecommons/cncf-sandbox-onboarding/issues/35))
+- ✅ [Review and understand the CNCF Third Party License Policy](ONBOARDING.md#license-policy-review) (PR: [#54](https://github.com/hivecommons/cncf-sandbox-onboarding/pull/54))
 - ✅ [Review and understand the LF trademark guidelines](ONBOARDING.md#trademark-guidelines-review) (PR: [#46](https://github.com/hivecommons/cncf-sandbox-onboarding/pull/46))
 - ⬜ [Transfer trademark and logo assets to the Linux Foundation](ONBOARDING.md#trademark-transfer) (Issue: [#33](https://github.com/hivecommons/cncf-sandbox-onboarding/issues/33))
 - ✅ [Review the Technical Leadership Principles](ONBOARDING.md#technical-leadership-principles) (PR: [#53](https://github.com/hivecommons/cncf-sandbox-onboarding/pull/53))
 - ✅ [Review the project proposal process and requirements](ONBOARDING.md#project-proposal-process) (PR: [#51](https://github.com/hivecommons/cncf-sandbox-onboarding/pull/51))
 - ✅ [Review services available for your project at the CNCF](ONBOARDING.md#cncf-services-review) (PR: [#45](https://github.com/hivecommons/cncf-sandbox-onboarding/pull/45))
-- ⬜ [Review the online program guidelines](ONBOARDING.md#online-program-guidelines) (Issue: [#29](https://github.com/hivecommons/cncf-sandbox-onboarding/issues/29))
+- ✅ [Review the online program guidelines](ONBOARDING.md#online-program-guidelines) (PR: [#54](https://github.com/hivecommons/cncf-sandbox-onboarding/pull/54))
 - ⬜ [Review the telemetry data collection and usage policy](ONBOARDING.md#telemetry-policy-review) (Issue: [#28](https://github.com/hivecommons/cncf-sandbox-onboarding/issues/28))
 - ✅ [Optional: book time with CNCF staff](ONBOARDING.md#cncf-staff-office-hours) (Issue: [#27](https://github.com/hivecommons/cncf-sandbox-onboarding/issues/27))
 - ✅ [Move the project to its own separate neutral GitHub organization](ONBOARDING.md#neutral-github-org) (PR: [#39](https://github.com/hivecommons/cncf-sandbox-onboarding/pull/39))
