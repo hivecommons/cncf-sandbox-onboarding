@@ -105,7 +105,7 @@ _Confirm review complete._
 Read the [CNCF project proposal process and requirements](https://github.com/cncf/toc/blob/main/process/README.md).
 <!-- field-guide:end -->
 
-- [ ] Review the project proposal process and requirements <!-- checklist:project-proposal-process --> (Issue: [#31](https://github.com/hivecommons/cncf-sandbox-onboarding/issues/31))
+- [x] Review the project proposal process and requirements <!-- checklist:project-proposal-process --> (PR: [#51](https://github.com/hivecommons/cncf-sandbox-onboarding/pull/51))
 
 **Evidence:**
 
