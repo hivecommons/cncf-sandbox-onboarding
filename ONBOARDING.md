@@ -18,7 +18,7 @@ A signed Project Contribution Agreement and trademark transfer are required **be
 Review the [CNCF IP Policy](https://github.com/cncf/foundation/blob/main/charter.md#11-ip-policy). Ensure the project uses a CNCF-compatible license — inbound projects must use **Apache 2.0**. (Dependency licenses are tracked separately in `license-scan-import`.)
 <!-- field-guide:end -->
 
-- [ ] Review and understand the CNCF IP Policy <!-- checklist:ip-policy-review --> (Issue: [#36](https://github.com/hivecommons/cncf-sandbox-onboarding/issues/36))
+- [x] Review and understand the CNCF IP Policy <!-- checklist:ip-policy-review --> (PR: [#50](https://github.com/hivecommons/cncf-sandbox-onboarding/pull/50))
 
 **Evidence:**
 
