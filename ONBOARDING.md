@@ -368,7 +368,7 @@ CNCF staff adds the project to [LFX Insights](https://insights.linuxfoundation.o
 
 **Evidence:**
 
-_Link to LFX Insights for the project._
+Hive is live on LFX Insights as project slug `hive`: https://insights.linuxfoundation.org/project/hive (security view: https://insights.linuxfoundation.org/project/hive/security). Confirmed by the maintainer on 2026-10-02.
 
 ### lfx-pcc-activation
 
