@@ -180,11 +180,11 @@ _Migration status or link to pointer channel._
 Join `#maintainers-circle` on CNCF Slack to find and share knowledge with other project teams.
 <!-- field-guide:end -->
 
-- [ ] Join the #maintainers-circle Slack channel <!-- checklist:maintainers-circle-slack --> (Issue: [#23](https://github.com/hivecommons/cncf-sandbox-onboarding/issues/23))
+- [x] Join the #maintainers-circle Slack channel <!-- checklist:maintainers-circle-slack --> (PR: [#44](https://github.com/hivecommons/cncf-sandbox-onboarding/pull/44))
 
 **Evidence:**
 
-_Confirm joined._
+- Maintainer @clubanderson (Andy Anderson) is a member of #maintainers-circle in the CNCF Slack as of 2026-10-02 (attested by maintainer).
 
 ### domain-transfer
 
