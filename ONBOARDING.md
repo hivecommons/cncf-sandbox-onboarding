@@ -42,11 +42,15 @@ _Note which scanning service you'll use (FOSSA or Snyk)._
 Review the [Linux Foundation trademark guidelines](https://www.linuxfoundation.org/trademark-usage/). Let the TOC know if you plan to change your project name.
 <!-- field-guide:end -->
 
-- [ ] Review and understand the LF trademark guidelines <!-- checklist:trademark-guidelines-review --> (Issue: [#34](https://github.com/hivecommons/cncf-sandbox-onboarding/issues/34))
+- [x] Review and understand the LF trademark guidelines <!-- checklist:trademark-guidelines-review --> (PR: [#46](https://github.com/hivecommons/cncf-sandbox-onboarding/pull/46))
 
 **Evidence:**
 
-_Confirm review complete; note any planned name change (or N/A)._
+- Maintainer @clubanderson read and accepts the [LF trademark guidelines](https://www.linuxfoundation.org/legal/trademark-usage) as of 2026-10-02.
+- Compliance spot-check: `hivecommons/hive` README, `src/README.md`, `hivecommons.dev`, and the hub portal use Linux Foundation/CNCF marks only nominatively/factually (for example, Code of Conduct and onboarding references); no CNCF logo/badge or claim beyond factual Sandbox/onboarding context was found.
+- LF footer trademark sentence is tracked separately in `lf-footer` (#15); website fix PR [hivecommons/hivecommons.github.io#51](https://github.com/hivecommons/hivecommons.github.io/pull/51) is pending.
+- Hive Commons project marks (`Hive Commons`, `Hive`, and the project logo) are currently held by the project/maintainers pending LF transfer, tracked in `trademark-transfer` (#33).
+- Third-party marks such as GitHub, Kubernetes, Copilot, and Claude are used nominatively to identify integrations, platforms, or prerequisites; no misuse was found in the spot-check.
 
 ### trademark-transfer
 
