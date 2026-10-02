@@ -319,11 +319,12 @@ Document a security policy in a `SECURITY.md` file at the root of your repo. See
 Register and begin working toward an [OpenSSF Best Practices Badge](https://www.bestpractices.dev/).
 <!-- field-guide:end -->
 
-- [ ] Start an OpenSSF Best Practices Badge <!-- checklist:openssf-badge --> (Issue: [#12](https://github.com/hivecommons/cncf-sandbox-onboarding/issues/12))
+- [x] Start an OpenSSF Best Practices Badge <!-- checklist:openssf-badge --> (PR: [#43](https://github.com/hivecommons/cncf-sandbox-onboarding/pull/43))
 
 **Evidence:**
 
-_Link to the badge page/status._
+- Verified the [OpenSSF Best Practices badge](https://www.bestpractices.dev/projects/14261) in [hivecommons/hive README.md](https://github.com/hivecommons/hive/blob/v5/README.md).
+- Fetched `https://www.bestpractices.dev/projects/14261.json` on 2026-10-02: project `hive`, `badge_level` = `passing`, `tiered_percentage` = `115`, `updated_at` = `2026-09-11T13:55:59.153Z`.
 
 ### license-scan-import
 
