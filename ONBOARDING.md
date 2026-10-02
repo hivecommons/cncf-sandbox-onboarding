@@ -205,7 +205,7 @@ CNCF staff can help. This improves discoverability, lets CNCF enforce its Code o
 
 **Evidence:**
 
-_Migration status or link to pointer channel._
+2026-10-02: CNCF Service Desk ticket [CNCFSD-3885](https://cncfservicedesk.atlassian.net/servicedesk/customer/portal/1/CNCFSD-3885) was opened to request a CNCF Slack pointer channel, `#hive-commons`, that points users to the Hive Commons Discord.
 
 ### maintainers-circle-slack
 
@@ -253,7 +253,7 @@ If you use Google Analytics, add `projects@cncf.io` as an admin of your existing
 
 **Evidence:**
 
-_Analytics status, or N/A._
+2026-10-02: `projects@cncf.io` was added as an Administrator on the new **Hive Commons** Google Analytics account. The account contains the Hive Hub property `540281325` (`G-4707R797K3`) and the DIBS property `550942255`.
 
 ## Update and document project details
 
