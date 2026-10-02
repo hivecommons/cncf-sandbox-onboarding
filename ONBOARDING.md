@@ -22,7 +22,28 @@ Review the [CNCF IP Policy](https://github.com/cncf/foundation/blob/main/charter
 
 **Evidence:**
 
-_Confirm license is Apache 2.0 and link to the LICENSE file._
+- Maintainer @clubanderson reviewed and accepts the [CNCF IP Policy](https://github.com/cncf/foundation/blob/main/charter.md#11-ip-policy) on 2026-10-02.
+- Compliance check: inbound project code is Apache-2.0. `gh repo list hivecommons --json name,licenseInfo` reported Apache License 2.0 for every current public Hive Commons repo, and each repo's root `LICENSE` was verified as Apache License 2.0:
+  - `hive` → Apache License 2.0 (`LICENSE` verified on default branch)
+  - `cncf-sandbox-onboarding` → Apache License 2.0 (`LICENSE` verified on default branch)
+  - `hivecommons.github.io` → Apache License 2.0 (`LICENSE` verified on default branch)
+  - `rationguard` → Apache License 2.0 (`LICENSE` verified on default branch)
+  - `hotshot` → Apache License 2.0 (`LICENSE` verified on default branch)
+  - `homebrew-hive` → Apache License 2.0 (`LICENSE` verified on default branch)
+  - `dibs` → Apache License 2.0 (`LICENSE` verified on default branch)
+  - `promptargs` → Apache License 2.0 (`LICENSE` verified on default branch)
+  - `docs` → Apache License 2.0 (`LICENSE` verified on default branch)
+  - `pluk` → Apache License 2.0 (`LICENSE` verified on default branch)
+  - `spektacular` → Apache License 2.0 (`LICENSE` verified on default branch)
+  - `.github` → Apache License 2.0 (`LICENSE` verified on default branch)
+  - `spektacular-website` → Apache License 2.0 (`LICENSE` verified on default branch)
+  - `hive-redirect` → Apache License 2.0 (`LICENSE` verified on default branch)
+  - `homebrew-repo` → Apache License 2.0 (`LICENSE` verified on default branch)
+  - `infra` → Apache License 2.0 (`LICENSE` verified on default branch)
+- Hive documentation under `README.md`, `src/README.md`, and `src/docs/` is covered by the repository Apache-2.0 license. CNCF site documentation referenced for onboarding is CC-BY-4.0 where applicable.
+- Inbound contribution control is DCO, verified in `dco-enabled` evidence ([#40](https://github.com/hivecommons/cncf-sandbox-onboarding/pull/40)).
+- Third-party dependency license policy is tracked separately in `license-policy-review` (#35); no repository source license conflicting with the IP policy was found in this IP-policy check.
+- Trademark/logo transfer is tracked separately in `trademark-transfer` (#33) and remains pending, not a blocker for this evidence item.
 
 ### license-policy-review
 
