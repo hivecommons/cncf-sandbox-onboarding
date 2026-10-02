@@ -281,7 +281,7 @@ Email maintainer addresses to `project-onboarding@cncf.io` (not shared publicly)
 
 **Evidence:**
 
-_Date emailed; confirm LF profile linking._
+- CNCF Sandbox issue update posted with `.project` repo and LFID linking status: https://github.com/cncf/sandbox/issues/516#issuecomment-5960859194. Current LFID↔GitHub linking tracker: https://github.com/hivecommons/hive/issues/10177.
 
 ### dco-enabled
 
