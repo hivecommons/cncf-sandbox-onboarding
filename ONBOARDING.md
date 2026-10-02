@@ -254,11 +254,13 @@ _Date emailed; confirm LF profile linking._
 Enable the [DCO GitHub App](https://github.com/apps/dco) on every repo in scope. A CLA may be used in addition to the DCO, not instead of it.
 <!-- field-guide:end -->
 
-- [ ] Ensure the DCO app is enabled for all project GitHub repositories <!-- checklist:dco-enabled --> (Issue: [#17](https://github.com/hivecommons/cncf-sandbox-onboarding/issues/17))
+- [x] Ensure the DCO app is enabled for all project GitHub repositories <!-- checklist:dco-enabled --> (PR: [#40](https://github.com/hivecommons/cncf-sandbox-onboarding/pull/40))
 
 **Evidence:**
 
-_List repos with DCO enabled._
+- Verified 2026-10-02 with `gh repo list hivecommons`, default-branch protection checks where available, and recent merged PR checks. Each current public org repository showed a passing `DCO` check from `https://probot.github.io/apps/dco/` on recent merged PRs.
+- Repo status: `hive` (#10035/#10029/#10028), `cncf-sandbox-onboarding` (#37), `hivecommons.github.io` (#45/#43/#42), `rationguard` (#116/#115/#112), `hotshot` (#116/#114/#112), `homebrew-hive` (#15/#13/#12), `dibs` (#217/#215/#214), `promptargs` (#108/#106/#104), `docs` (#172/#170/#168), `pluk` (#125/#123/#120), `spektacular` (#68/#64/#63), `.github` (#12/#11/#10), `spektacular-website` (#10/#8/#7), `hive-redirect` (#5/#4/#3), `homebrew-repo` (#2/#1), and `infra` (#8/#6/#5).
+- Branch protection was readable on protected repos and includes DCO-related enforcement on `infra` (`dco`) and aggregate gates on several repos; unprotected repos were still verified through recent passing DCO PR checks.
 
 ### coc-in-readme
 
