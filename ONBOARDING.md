@@ -336,7 +336,7 @@ Register and begin working toward an [OpenSSF Best Practices Badge](https://www.
 Import all repos in scope into CNCF FOSSA or CNCF Snyk (see `license-policy-review`).
 <!-- field-guide:end -->
 
-- [ ] Import all project repos into a license scanning service <!-- checklist:license-scan-import --> (Issue: [#11](https://github.com/hivecommons/cncf-sandbox-onboarding/issues/11))
+- [x] Import all project repos into a license scanning service <!-- checklist:license-scan-import --> (PR: [#47](https://github.com/hivecommons/cncf-sandbox-onboarding/pull/47))
 
 **Evidence:**
 
