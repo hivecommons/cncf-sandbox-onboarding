@@ -51,11 +51,14 @@ Review the [CNCF IP Policy](https://github.com/cncf/foundation/blob/main/charter
 Review the [CNCF Allowlist License Policy](https://github.com/cncf/foundation/blob/main/policies-guidance/allowed-third-party-license-policy.md). This governs licenses used by third-party dependencies. CNCF FOSSA or CNCF Snyk can check compliance — pick one (tracked in `license-scan-import`).
 <!-- field-guide:end -->
 
-- [ ] Review and understand the CNCF Third Party License Policy <!-- checklist:license-policy-review --> (Issue: [#35](https://github.com/hivecommons/cncf-sandbox-onboarding/issues/35))
+- [x] Review and understand the CNCF Third Party License Policy <!-- checklist:license-policy-review --> (PR: [#54](https://github.com/hivecommons/cncf-sandbox-onboarding/pull/54))
 
 **Evidence:**
 
-_Note which scanning service you'll use (FOSSA or Snyk)._
+- Maintainer @clubanderson reviewed the [CNCF Allowlist License Policy](https://github.com/cncf/foundation/blob/main/policies-guidance/allowed-third-party-license-policy.md) on 2026-10-02.
+- License scan service selected: FOSSA, tracked in `license-scan-import` (#11). CNCF FOSSA org import / `FOSSA_API_KEY` issuance is still pending CNCF staff action.
+- Known dependency-license finding: `minimatch` resolved to BlueOak-1.0.0 in the GitHub script dependency tree; mitigation shipped in [hivecommons/hive#10178](https://github.com/hivecommons/hive/pull/10178), pinning the relevant `minimatch` resolutions to 9.0.9 (ISC). Backup exception request: [cncf/foundation#1552](https://github.com/cncf/foundation/issues/1552).
+- Cheap follow-up on 2026-10-02 found no additional flagged non-allowlisted npm package licenses in `hive` lockfiles (`.github/scripts`, `dashboard`, `discord`). `go-licenses` was installed and attempted against `hive/src`, but the local toolchain emitted module/license discovery errors for first-party packages and standard-library packages, so it was not treated as authoritative. FOSSA will provide the authoritative cross-repo dependency-license scan once #11 lands.
 
 ### trademark-guidelines-review
 
@@ -132,11 +135,13 @@ Read about [services available to CNCF projects](https://contribute.cncf.io/reso
 Read the CNCF online program guidelines (webinars, meetups, events) provided by CNCF staff.
 <!-- field-guide:end -->
 
-- [ ] Review the online program guidelines <!-- checklist:online-program-guidelines --> (Issue: [#29](https://github.com/hivecommons/cncf-sandbox-onboarding/issues/29))
+- [x] Review the online program guidelines <!-- checklist:online-program-guidelines --> (PR: [#54](https://github.com/hivecommons/cncf-sandbox-onboarding/pull/54))
 
 **Evidence:**
 
-_Confirm review complete._
+- Reviewed by @clubanderson on 2026-10-02.
+- Current CNCF onboarding template links the [CNCF online program guidelines](https://github.com/cncf/foundation/blob/main/policies-guidance/online-programs-guidelines.md), which returned HTTP 200 on 2026-10-02 and covers CNCF online programs including webinars and livestreams.
+- Also reviewed the live [CNCF Online Programs](https://www.cncf.io/online-programs/) page (HTTP 200; title `Online Programs | CNCF`; includes webinars, meetups, and livestreams) and [Marketing Services](https://contribute.cncf.io/resources/services/marketing/) (HTTP 200; title `Marketing Services | CNCF Contributors`; includes project webinar/event support).
 
 ### telemetry-policy-review
 
