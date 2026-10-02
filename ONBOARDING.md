@@ -272,7 +272,7 @@ Enable the [DCO GitHub App](https://github.com/apps/dco) on every repo in scope.
 Explicitly reference the CNCF Code of Conduct (or your adopted version) in the project's `README.md` on GitHub.
 <!-- field-guide:end -->
 
-- [ ] Reference the CNCF Code of Conduct in README.md <!-- checklist:coc-in-readme --> (Issue: [#16](https://github.com/hivecommons/cncf-sandbox-onboarding/issues/16))
+- [x] Reference the CNCF Code of Conduct in README.md <!-- checklist:coc-in-readme --> (PR: [#48](https://github.com/hivecommons/cncf-sandbox-onboarding/pull/48))
 
 **Evidence:**
 
