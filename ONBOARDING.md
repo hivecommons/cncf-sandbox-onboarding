@@ -109,7 +109,8 @@ Read the [CNCF project proposal process and requirements](https://github.com/cnc
 
 **Evidence:**
 
-_Confirm review complete._
+- Maintainer @clubanderson reviewed the [CNCF project proposal process and requirements](https://github.com/cncf/toc/blob/main/process/README.md) on 2026-10-02.
+- Hive Commons was accepted as a CNCF Sandbox project on 2026-09-29 and is tracked in [cncf/sandbox#516](https://github.com/cncf/sandbox/issues/516).
 
 ### cncf-services-review
 
