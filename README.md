@@ -15,8 +15,8 @@ This repository helps you track and complete [CNCF Sandbox onboarding](https://g
 ## Onboarding progress
 
 <!-- checklist-progress:start -->
-> **Onboarding progress:** **14 / 36** items complete (39%)  
-> `████████░░░░░░░░░░░░` 39%
+> **Onboarding progress:** **16 / 36** items complete (44%)  
+> `█████████░░░░░░░░░░░` 44%
 <!-- checklist-progress:end -->
 
 ## Onboarding checklist
@@ -28,7 +28,7 @@ Each row links to the matching section in [ONBOARDING.md](ONBOARDING.md). A PR w
 - ⬜ [Review and understand the CNCF Third Party License Policy](ONBOARDING.md#license-policy-review) (Issue: [#35](https://github.com/hivecommons/cncf-sandbox-onboarding/issues/35))
 - ✅ [Review and understand the LF trademark guidelines](ONBOARDING.md#trademark-guidelines-review) (PR: [#46](https://github.com/hivecommons/cncf-sandbox-onboarding/pull/46))
 - ⬜ [Transfer trademark and logo assets to the Linux Foundation](ONBOARDING.md#trademark-transfer) (Issue: [#33](https://github.com/hivecommons/cncf-sandbox-onboarding/issues/33))
-- ⬜ [Review the Technical Leadership Principles](ONBOARDING.md#technical-leadership-principles) (Issue: [#32](https://github.com/hivecommons/cncf-sandbox-onboarding/issues/32))
+- ✅ [Review the Technical Leadership Principles](ONBOARDING.md#technical-leadership-principles) (PR: [#53](https://github.com/hivecommons/cncf-sandbox-onboarding/pull/53))
 - ✅ [Review the project proposal process and requirements](ONBOARDING.md#project-proposal-process) (PR: [#51](https://github.com/hivecommons/cncf-sandbox-onboarding/pull/51))
 - ✅ [Review services available for your project at the CNCF](ONBOARDING.md#cncf-services-review) (PR: [#45](https://github.com/hivecommons/cncf-sandbox-onboarding/pull/45))
 - ⬜ [Review the online program guidelines](ONBOARDING.md#online-program-guidelines) (Issue: [#29](https://github.com/hivecommons/cncf-sandbox-onboarding/issues/29))
@@ -41,7 +41,7 @@ Each row links to the matching section in [ONBOARDING.md](ONBOARDING.md). A PR w
 - ⬜ [Transfer project domain(s) to the CNCF](ONBOARDING.md#domain-transfer) (Issue: [#22](https://github.com/hivecommons/cncf-sandbox-onboarding/issues/22))
 - ⬜ [Submit a pull request with your artwork](ONBOARDING.md#artwork-pr) (Issue: [#21](https://github.com/hivecommons/cncf-sandbox-onboarding/issues/21))
 - ⬜ [Transfer website analytics to the CNCF](ONBOARDING.md#analytics-transfer) (Issue: [#20](https://github.com/hivecommons/cncf-sandbox-onboarding/issues/20))
-- ⬜ [Create a maintainer list and add it to the aggregated CNCF maintainer list](ONBOARDING.md#maintainer-list-pr) (Issue: [#19](https://github.com/hivecommons/cncf-sandbox-onboarding/issues/19))
+- ✅ [Create a maintainer list and add it to the aggregated CNCF maintainer list](ONBOARDING.md#maintainer-list-pr) (PR: [#52](https://github.com/hivecommons/cncf-sandbox-onboarding/pull/52))
 - ⬜ [Provide maintainer emails for mailing list and Service Desk access](ONBOARDING.md#maintainer-emails) (Issue: [#18](https://github.com/hivecommons/cncf-sandbox-onboarding/issues/18))
 - ✅ [Ensure the DCO app is enabled for all project GitHub repositories](ONBOARDING.md#dco-enabled) (PR: [#40](https://github.com/hivecommons/cncf-sandbox-onboarding/pull/40))
 - ✅ [Reference the CNCF Code of Conduct in README.md](ONBOARDING.md#coc-in-readme) (PR: [#48](https://github.com/hivecommons/cncf-sandbox-onboarding/pull/48))

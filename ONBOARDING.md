@@ -93,7 +93,7 @@ _Date Contribution Agreement was signed, or status if pending._
 Read the [Technical Leadership Principles](https://github.com/cncf/toc/blob/main/PRINCIPLES.md#technical-leadership-principles) from CNCF TOC Principles v1.0 and the [technical leadership principles enforcement guidance](https://github.com/cncf/toc/blob/main/resources/tech_leadership_principles_guidance.md), which outline expected behavior for maintainers in leadership roles.
 <!-- field-guide:end -->
 
-- [ ] Review the Technical Leadership Principles <!-- checklist:technical-leadership-principles --> (Issue: [#32](https://github.com/hivecommons/cncf-sandbox-onboarding/issues/32))
+- [x] Review the Technical Leadership Principles <!-- checklist:technical-leadership-principles --> (PR: [#53](https://github.com/hivecommons/cncf-sandbox-onboarding/pull/53))
 
 **Evidence:**
 
@@ -258,7 +258,7 @@ _Analytics status, or N/A._
 Create/verify `MAINTAINERS.md` and open a PR against the aggregated CNCF maintainer list.
 <!-- field-guide:end -->
 
-- [ ] Create a maintainer list and add it to the aggregated CNCF maintainer list <!-- checklist:maintainer-list-pr --> (Issue: [#19](https://github.com/hivecommons/cncf-sandbox-onboarding/issues/19))
+- [x] Create a maintainer list and add it to the aggregated CNCF maintainer list <!-- checklist:maintainer-list-pr --> (PR: [#52](https://github.com/hivecommons/cncf-sandbox-onboarding/pull/52))
 
 **Evidence:**
 
