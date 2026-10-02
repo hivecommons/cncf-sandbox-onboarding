@@ -292,11 +292,12 @@ _Link to footer on the site or README section._
 Document written, open governance in a `GOVERNANCE.md` file at the root of your repo.
 <!-- field-guide:end -->
 
-- [ ] Start a GOVERNANCE.md documenting open governance <!-- checklist:governance-doc --> (Issue: [#14](https://github.com/hivecommons/cncf-sandbox-onboarding/issues/14))
+- [x] Start a GOVERNANCE.md documenting open governance <!-- checklist:governance-doc --> (PR: [#41](https://github.com/hivecommons/cncf-sandbox-onboarding/pull/41))
 
 **Evidence:**
 
-_Link to GOVERNANCE.md._
+- Verified [hivecommons/hive GOVERNANCE.md](https://github.com/hivecommons/hive/blob/v5/GOVERNANCE.md).
+- Summary: Hive is governed by the Hive maintainer committee; routine repository decisions use lazy consensus through GitHub review, with controversial or cross-project decisions escalated to the KubeStellar governance process.
 
 ### security-doc
 
