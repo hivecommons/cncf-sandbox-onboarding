@@ -237,11 +237,13 @@ _Domain(s) transferred, or N/A if none._
 Submit project artwork to [cncf/artwork](https://github.com/cncf/artwork). If you don't have artwork, CNCF can help design some.
 <!-- field-guide:end -->
 
-- [ ] Submit a pull request with your artwork <!-- checklist:artwork-pr --> (Issue: [#21](https://github.com/hivecommons/cncf-sandbox-onboarding/issues/21))
+- [x] Submit a pull request with your artwork <!-- checklist:artwork-pr --> (PR: [#59](https://github.com/hivecommons/cncf-sandbox-onboarding/pull/59))
 
 **Evidence:**
 
-_Link to the artwork PR._
+- Artwork PR: [cncf/artwork#685](https://github.com/cncf/artwork/pull/685) — full set under `projects/hive-commons/{icon,horizontal,stacked}/{color,black,white}/` (SVG + PNG), submitted 2026-10-02, updated 2026-10-03 with the final vector trace of the official sticker illustration, line-art black/white variants, and Nunito ExtraBold wordmark (glyphs as paths).
+- Landscape logo follow-up: [cncf/landscape#5182](https://github.com/cncf/landscape/pull/5182) (draft until #685 merges); tracked in [#58](https://github.com/hivecommons/cncf-sandbox-onboarding/issues/58).
+- Source: the project's existing sticker artwork (© Hive Commons maintainers), contributed under the cncf/artwork licence.
 
 ### analytics-transfer
 
