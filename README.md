@@ -15,8 +15,8 @@ This repository helps you track and complete [CNCF Sandbox onboarding](https://g
 ## Onboarding progress
 
 <!-- checklist-progress:start -->
-> **Onboarding progress:** **22 / 36** items complete (61%)  
-> `████████████░░░░░░░░` 61%
+> **Onboarding progress:** **23 / 36** items complete (64%)  
+> `█████████████░░░░░░░` 64%
 <!-- checklist-progress:end -->
 
 ## Onboarding checklist
@@ -50,7 +50,7 @@ Each row links to the matching section in [ONBOARDING.md](ONBOARDING.md). A PR w
 - ✅ [Start a SECURITY.md security policy](ONBOARDING.md#security-doc) (PR: [#42](https://github.com/hivecommons/cncf-sandbox-onboarding/pull/42))
 - ✅ [Start an OpenSSF Best Practices Badge](ONBOARDING.md#openssf-badge) (PR: [#43](https://github.com/hivecommons/cncf-sandbox-onboarding/pull/43))
 - ⬜ [Import all project repos into a license scanning service](ONBOARDING.md#license-scan-import) (Issue: [#11](https://github.com/hivecommons/cncf-sandbox-onboarding/issues/11))
-- ⬜ [CNCF staff: add the project to DevStats](ONBOARDING.md#devstats) (Issue: [#10](https://github.com/hivecommons/cncf-sandbox-onboarding/issues/10))
+- ✅ [CNCF staff: add the project to DevStats](ONBOARDING.md#devstats) (Issue: [#10](https://github.com/hivecommons/cncf-sandbox-onboarding/issues/10))
 - ⬜ [CNCF staff: add the project to CLOMonitor](ONBOARDING.md#clomonitor) (Issue: [#9](https://github.com/hivecommons/cncf-sandbox-onboarding/issues/9))
 - ✅ [CNCF staff: add the project to LFX Insights](ONBOARDING.md#lfx-insights-onboarding) (PR: [#38](https://github.com/hivecommons/cncf-sandbox-onboarding/pull/38))
 - ⬜ [CNCF staff: activate the project in the LFX Project Control Center](ONBOARDING.md#lfx-pcc-activation) (Issue: [#7](https://github.com/hivecommons/cncf-sandbox-onboarding/issues/7))
