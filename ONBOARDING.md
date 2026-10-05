@@ -392,7 +392,9 @@ CNCF staff adds the project to [DevStats](https://all.devstats.cncf.io/).
 
 **Evidence:**
 
-_Link to the project's DevStats dashboard once available._
+- Hive Commons DevStats dashboard is live at https://hivecommons.devstats.cncf.io/ (verified HTTP 200 on 2026-10-05; dashboard path https://hivecommons.devstats.cncf.io/d/8/dashboards?orgId=1 also returned HTTP 200).
+- Public `cncf/devstats` configuration includes the Hive Commons project wiring, including `devel/project_names.sh` (`project_names["hivecommons"]="Hive Commons"`) and `grafana/hivecommons/` assets.
+- Tracker issue [#10](https://github.com/hivecommons/cncf-sandbox-onboarding/issues/10) was closed with the verification comment on 2026-10-05, and `sync-checklist.yml` marked the checklist row complete.
 
 ### clomonitor
 
