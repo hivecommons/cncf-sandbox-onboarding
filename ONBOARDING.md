@@ -474,7 +474,7 @@ _Groups.io list name/link._
 CNCF staff adds the project's groups.io maintainer list to `maintainers@cncf.io`.
 <!-- field-guide:end -->
 
-- [ ] CNCF staff: add the project's groups.io list to maintainers@cncf.io <!-- checklist:groupsio-maintainers-list --> (Issue: [#3](https://github.com/hivecommons/cncf-sandbox-onboarding/issues/3))
+- [x] CNCF staff: add the project's groups.io list to maintainers@cncf.io <!-- checklist:groupsio-maintainers-list --> (Issue: [#3](https://github.com/hivecommons/cncf-sandbox-onboarding/issues/3))
 
 **Evidence:**
 

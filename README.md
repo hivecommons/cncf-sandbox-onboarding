@@ -15,8 +15,8 @@ This repository helps you track and complete [CNCF Sandbox onboarding](https://g
 ## Onboarding progress
 
 <!-- checklist-progress:start -->
-> **Onboarding progress:** **23 / 36** items complete (64%)  
-> `█████████████░░░░░░░` 64%
+> **Onboarding progress:** **24 / 36** items complete (67%)  
+> `█████████████░░░░░░░` 67%
 <!-- checklist-progress:end -->
 
 ## Onboarding checklist
@@ -57,7 +57,7 @@ Each row links to the matching section in [ONBOARDING.md](ONBOARDING.md). A PR w
 - ✅ [CNCF staff: add the project to the Cloud Native Landscape](ONBOARDING.md#landscape-listing-onboarding) (PR: [#57](https://github.com/hivecommons/cncf-sandbox-onboarding/pull/57))
 - ⬜ [CNCF staff: add the maintainers team to the license scanner](ONBOARDING.md#license-scanner-team) (Issue: [#5](https://github.com/hivecommons/cncf-sandbox-onboarding/issues/5))
 - ⬜ [CNCF staff: create a groups.io project maintainer list in PCC](ONBOARDING.md#groupsio-list) (Issue: [#4](https://github.com/hivecommons/cncf-sandbox-onboarding/issues/4))
-- ⬜ [CNCF staff: add the project's groups.io list to maintainers@cncf.io](ONBOARDING.md#groupsio-maintainers-list) (Issue: [#3](https://github.com/hivecommons/cncf-sandbox-onboarding/issues/3))
+- ✅ [CNCF staff: add the project's groups.io list to maintainers@cncf.io](ONBOARDING.md#groupsio-maintainers-list) (Issue: [#3](https://github.com/hivecommons/cncf-sandbox-onboarding/issues/3))
 - ⬜ [CNCF staff: send a welcome email confirming maintainer list access](ONBOARDING.md#welcome-email) (Issue: [#2](https://github.com/hivecommons/cncf-sandbox-onboarding/issues/2))
 - ⬜ [Final review: confirm all items complete and request sign-off](ONBOARDING.md#onboarding-complete) (Issue: [#1](https://github.com/hivecommons/cncf-sandbox-onboarding/issues/1))
 
