@@ -469,7 +469,9 @@ CNCF staff creates a groups.io maintainer list for the project in the LFX Projec
 
 **Evidence:**
 
-_Groups.io list name/link._
+- Groups.io list: `cncf-hive-commons-maintainers@lists.cncf.io` — https://lists.cncf.io/g/cncf-hive-commons-maintainers (public group page returned HTTP 200 on 2026-10-12; description "Hive Commons Maintainers mailing list"; subgroup of `main` on `lists.cncf.io`; started 2026-10-05 09:27 UTC; 13 members at time of check).
+- CNCF staff confirmation: Riaan Kleinhans on [cncf/foundation#1550](https://github.com/cncf/foundation/pull/1550#issuecomment-5992438884) (2026-10-05) — "Maintainers have also been added to the project maintainers mailing list and CNCF service desk."
+- The list's addition to `maintainers@cncf.io` is tracked separately in `groupsio-maintainers-list` (#3, closed 2026-10-05).
 
 ### groupsio-maintainers-list
 
