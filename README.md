@@ -15,8 +15,8 @@ This repository helps you track and complete [CNCF Sandbox onboarding](https://g
 ## Onboarding progress
 
 <!-- checklist-progress:start -->
-> **Onboarding progress:** **24 / 36** items complete (67%)  
-> `█████████████░░░░░░░` 67%
+> **Onboarding progress:** **25 / 36** items complete (67%)  
+> `█████████████░░░░░░░` 69%
 <!-- checklist-progress:end -->
 
 ## Onboarding checklist
