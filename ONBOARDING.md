@@ -149,7 +149,7 @@ Read the CNCF online program guidelines (webinars, meetups, events) provided by 
 Read the CNCF telemetry data collection and usage policy.
 <!-- field-guide:end -->
 
-- [ ] Review the telemetry data collection and usage policy <!-- checklist:telemetry-policy-review --> (Issue: [#28](https://github.com/hivecommons/cncf-sandbox-onboarding/issues/28))
+- [x] Review the telemetry data collection and usage policy <!-- checklist:telemetry-policy-review --> (PR: [#63](https://github.com/hivecommons/cncf-sandbox-onboarding/pull/63))
 
 **Evidence:**
 
@@ -469,7 +469,7 @@ _Confirmation maintainers have scanner access._
 CNCF staff creates a groups.io maintainer list for the project in the LFX Project Control Center.
 <!-- field-guide:end -->
 
-- [ ] CNCF staff: create a groups.io project maintainer list in PCC <!-- checklist:groupsio-list --> (Issue: [#4](https://github.com/hivecommons/cncf-sandbox-onboarding/issues/4))
+- [x] CNCF staff: create a groups.io project maintainer list in PCC <!-- checklist:groupsio-list --> (PR: [#63](https://github.com/hivecommons/cncf-sandbox-onboarding/pull/63))
 
 **Evidence:**
 
@@ -495,7 +495,7 @@ _Confirmation complete._
 CNCF staff sends a welcome email confirming maintainer mailing list and Service Desk access.
 <!-- field-guide:end -->
 
-- [ ] CNCF staff: send a welcome email confirming maintainer list access <!-- checklist:welcome-email --> (Issue: [#2](https://github.com/hivecommons/cncf-sandbox-onboarding/issues/2))
+- [x] CNCF staff: send a welcome email confirming maintainer list access <!-- checklist:welcome-email --> (PR: [#63](https://github.com/hivecommons/cncf-sandbox-onboarding/pull/63))
 
 **Evidence:**
 
