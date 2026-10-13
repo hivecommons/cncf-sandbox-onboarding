@@ -499,7 +499,9 @@ CNCF staff sends a welcome email confirming maintainer mailing list and Service 
 
 **Evidence:**
 
-_Date welcome email received._
+- CNCF staff confirmed maintainer list and Service Desk access in writing on 2026-10-05: Riaan Kleinhans on [cncf/foundation#1550](https://github.com/cncf/foundation/pull/1550#issuecomment-5992438884) — "Maintainers have also been added to the project maintainers mailing list and CNCF service desk."
+- Corresponding list is live: `cncf-hive-commons-maintainers@lists.cncf.io` (https://lists.cncf.io/g/cncf-hive-commons-maintainers, started 2026-10-05 09:27 UTC); see `groupsio-list` (#4).
+- Maintainer roster used for access is [hivecommons/.project maintainers.yaml](https://github.com/hivecommons/.project/blob/main/maintainers.yaml), picked up in [project-maintainers-.project.csv](https://github.com/cncf/foundation/blob/main/project-maintainers-.project.csv?plain=1#L1435).
 
 ## Final review
 
