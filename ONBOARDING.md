@@ -153,7 +153,11 @@ Read the CNCF telemetry data collection and usage policy.
 
 **Evidence:**
 
-_Confirm review complete._
+- Maintainer @clubanderson read the [Linux Foundation Telemetry Data Collection and Usage Policy](https://www.linuxfoundation.org/legal/telemetry-data-policy) on 2026-10-02 (HTTP 200; title `Telemetry Data Collection and Usage Policy | Linux Foundation`). This is the policy the current [CNCF onboarding template](https://github.com/cncf/sandbox/blob/main/.github/ISSUE_TEMPLATE/project-onboarding.md) links for this item.
+- Review was applied to the codebase, not just read: a full audit of every phone-home path in `hivecommons/hive` (hub heartbeat, task-status push, dashboard feedback, NPS, hosted-hub GA4, crash reporting) is published at [src/docs/telemetry.md](https://github.com/hivecommons/hive/blob/v5/src/docs/telemetry.md) (merged via [hivecommons/hive#10203](https://github.com/hivecommons/hive/pull/10203)), including a requirement-by-requirement LF policy status table. Audit summary is also on [#28](https://github.com/hivecommons/cncf-sandbox-onboarding/issues/28#issuecomment-5959608936).
+- Operator controls added as a result of the review: heartbeat identifier withholding (`hub.heartbeat_omit`) and task-status opt-out, via [hivecommons/hive#10295](https://github.com/hivecommons/hive/pull/10295) and [hivecommons/hive#10391](https://github.com/hivecommons/hive/pull/10391); tracking issue [hivecommons/hive#10202](https://github.com/hivecommons/hive/issues/10202) closed 2026-10-05.
+- No PostHog, Segment, Plausible, or Sentry integrations were found in `hive/src`; standalone hives do not phone home without a configured hub URL.
+- Open follow-up (outside this review item): hub-linked heartbeat defaults and hosted-hub GA4 custom events are flagged in `telemetry.md` for LF legal review before any telemetry is enabled by default; this will be raised via the CNCF Service Desk.
 
 ### cncf-staff-office-hours
 
