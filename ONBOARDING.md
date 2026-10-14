@@ -193,11 +193,14 @@ This makes the project transferable to the CNCF's GitHub Enterprise account. If 
 CNCF will add `thelinuxfoundation` as an organization owner to ensure neutral hosting.
 <!-- field-guide:end -->
 
-- [ ] Accept the invite to join the CNCF GitHub Enterprise account <!-- checklist:ghe-invite-accepted --> (Issue: [#25](https://github.com/hivecommons/cncf-sandbox-onboarding/issues/25))
+- [x] Accept the invite to join the CNCF GitHub Enterprise account <!-- checklist:ghe-invite-accepted --> (PR: [#65](https://github.com/hivecommons/cncf-sandbox-onboarding/pull/65))
 
 **Evidence:**
 
-_Date invite accepted._
+- Status: complete as of 2026-10-14.
+- 2026-10-14: @riaankleinhans (CNCF) sent the GitHub Enterprise invitation for the `hivecommons` organization to join the **Cloud Native Computing Foundation** enterprise ([github.com/enterprises/cncf](https://github.com/enterprises/cncf)); @clubanderson (org owner) accepted it the same day.
+- 2026-10-14: `thelinuxfoundation` was invited as an **Owner** of the `hivecommons` organization (invitation originates from the project org per CNCF staff guidance, [cncf/sandbox#516](https://github.com/cncf/sandbox/issues/516#issuecomment-6175873690)); acceptance by LF pending at time of writing.
+- Tracking: [#25](https://github.com/hivecommons/cncf-sandbox-onboarding/issues/25).
 
 ### slack-migration
 
