@@ -193,7 +193,7 @@ This makes the project transferable to the CNCF's GitHub Enterprise account. If 
 CNCF will add `thelinuxfoundation` as an organization owner to ensure neutral hosting.
 <!-- field-guide:end -->
 
-- [x] Accept the invite to join the CNCF GitHub Enterprise account <!-- checklist:ghe-invite-accepted --> (Issue: [#25](https://github.com/hivecommons/cncf-sandbox-onboarding/issues/25))
+- [x] Accept the invite to join the CNCF GitHub Enterprise account <!-- checklist:ghe-invite-accepted --> (PR: [#65](https://github.com/hivecommons/cncf-sandbox-onboarding/pull/65))
 
 **Evidence:**
 
