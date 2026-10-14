@@ -201,11 +201,14 @@ _Date invite accepted._
 CNCF staff can help. This improves discoverability, lets CNCF enforce its Code of Conduct, and enables unlimited message retention. If you already have a large Slack/Discord community, CNCF may instead link to it from a pointer channel in the CNCF Slack workspace.
 <!-- field-guide:end -->
 
-- [x] Migrate Slack channels to the Kubernetes or CNCF Slack workspace <!-- checklist:slack-migration --> (Issue: [#24](https://github.com/hivecommons/cncf-sandbox-onboarding/issues/24))
+- [x] Migrate Slack channels to the Kubernetes or CNCF Slack workspace <!-- checklist:slack-migration --> (PR: [#62](https://github.com/hivecommons/cncf-sandbox-onboarding/pull/62))
 
 **Evidence:**
 
-2026-10-02: CNCF Service Desk ticket [CNCFSD-3885](https://cncfservicedesk.atlassian.net/servicedesk/customer/portal/1/CNCFSD-3885) was opened to request a CNCF Slack pointer channel, `#hive-commons`, that points users to the Hive Commons Discord.
+- Status: complete as of 2026-10-12.
+- Hive Commons had no existing Slack workspace to migrate. The community chat is Discord: [https://hivecommons.dev/discord](https://hivecommons.dev/discord) (invite: [https://discord.gg/kQbCKGySvp](https://discord.gg/kQbCKGySvp)).
+- Per the CNCF guidance for projects with an existing Discord community, a public pointer channel `#hive-commons` was created in the CNCF Slack workspace (cloud-native.slack.com) linking to the Discord. Requested 2026-10-02 via CNCF Service Desk ticket [CNCFSD-3885](https://cncfservicedesk.atlassian.net/servicedesk/customer/portal/1/CNCFSD-3885); channel confirmed created 2026-10-12.
+- Join the CNCF Slack via [https://slack.cncf.io](https://slack.cncf.io), then find `#hive-commons`.
 
 ### maintainers-circle-slack
 

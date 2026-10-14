@@ -36,7 +36,7 @@ Each row links to the matching section in [ONBOARDING.md](ONBOARDING.md). A PR w
 - ✅ [Optional: book time with CNCF staff](ONBOARDING.md#cncf-staff-office-hours) (Issue: [#27](https://github.com/hivecommons/cncf-sandbox-onboarding/issues/27))
 - ✅ [Move the project to its own separate neutral GitHub organization](ONBOARDING.md#neutral-github-org) (PR: [#39](https://github.com/hivecommons/cncf-sandbox-onboarding/pull/39))
 - ⬜ [Accept the invite to join the CNCF GitHub Enterprise account](ONBOARDING.md#ghe-invite-accepted) (Issue: [#25](https://github.com/hivecommons/cncf-sandbox-onboarding/issues/25))
-- ✅ [Migrate Slack channels to the Kubernetes or CNCF Slack workspace](ONBOARDING.md#slack-migration) (Issue: [#24](https://github.com/hivecommons/cncf-sandbox-onboarding/issues/24))
+- ✅ [Migrate Slack channels to the Kubernetes or CNCF Slack workspace](ONBOARDING.md#slack-migration) (PR: [#62](https://github.com/hivecommons/cncf-sandbox-onboarding/pull/62))
 - ✅ [Join the #maintainers-circle Slack channel](ONBOARDING.md#maintainers-circle-slack) (PR: [#44](https://github.com/hivecommons/cncf-sandbox-onboarding/pull/44))
 - ⬜ [Transfer project domain(s) to the CNCF](ONBOARDING.md#domain-transfer) (Issue: [#22](https://github.com/hivecommons/cncf-sandbox-onboarding/issues/22))
 - ✅ [Submit a pull request with your artwork](ONBOARDING.md#artwork-pr) (PR: [#59](https://github.com/hivecommons/cncf-sandbox-onboarding/pull/59))
