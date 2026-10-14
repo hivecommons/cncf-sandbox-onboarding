@@ -149,11 +149,15 @@ Read the CNCF online program guidelines (webinars, meetups, events) provided by 
 Read the CNCF telemetry data collection and usage policy.
 <!-- field-guide:end -->
 
-- [ ] Review the telemetry data collection and usage policy <!-- checklist:telemetry-policy-review --> (Issue: [#28](https://github.com/hivecommons/cncf-sandbox-onboarding/issues/28))
+- [x] Review the telemetry data collection and usage policy <!-- checklist:telemetry-policy-review --> (PR: [#63](https://github.com/hivecommons/cncf-sandbox-onboarding/pull/63))
 
 **Evidence:**
 
-_Confirm review complete._
+- Maintainer @clubanderson read the [Linux Foundation Telemetry Data Collection and Usage Policy](https://www.linuxfoundation.org/legal/telemetry-data-policy) on 2026-10-02 (HTTP 200; title `Telemetry Data Collection and Usage Policy | Linux Foundation`). This is the policy the current [CNCF onboarding template](https://github.com/cncf/sandbox/blob/main/.github/ISSUE_TEMPLATE/project-onboarding.md) links for this item.
+- Review was applied to the codebase, not just read: a full audit of every phone-home path in `hivecommons/hive` (hub heartbeat, task-status push, dashboard feedback, NPS, hosted-hub GA4, crash reporting) is published at [src/docs/telemetry.md](https://github.com/hivecommons/hive/blob/v5/src/docs/telemetry.md) (merged via [hivecommons/hive#10203](https://github.com/hivecommons/hive/pull/10203)), including a requirement-by-requirement LF policy status table. Audit summary is also on [#28](https://github.com/hivecommons/cncf-sandbox-onboarding/issues/28#issuecomment-5959608936).
+- Operator controls added as a result of the review: heartbeat identifier withholding (`hub.heartbeat_omit`) and task-status opt-out, via [hivecommons/hive#10295](https://github.com/hivecommons/hive/pull/10295) and [hivecommons/hive#10391](https://github.com/hivecommons/hive/pull/10391); tracking issue [hivecommons/hive#10202](https://github.com/hivecommons/hive/issues/10202) closed 2026-10-05.
+- No PostHog, Segment, Plausible, or Sentry integrations were found in `hive/src`; standalone hives do not phone home without a configured hub URL.
+- Open follow-up (outside this review item): hub-linked heartbeat defaults and hosted-hub GA4 custom events are flagged in `telemetry.md` for LF legal review before any telemetry is enabled by default; this will be raised via the CNCF Service Desk.
 
 ### cncf-staff-office-hours
 
@@ -465,11 +469,13 @@ _Confirmation maintainers have scanner access._
 CNCF staff creates a groups.io maintainer list for the project in the LFX Project Control Center.
 <!-- field-guide:end -->
 
-- [ ] CNCF staff: create a groups.io project maintainer list in PCC <!-- checklist:groupsio-list --> (Issue: [#4](https://github.com/hivecommons/cncf-sandbox-onboarding/issues/4))
+- [x] CNCF staff: create a groups.io project maintainer list in PCC <!-- checklist:groupsio-list --> (PR: [#63](https://github.com/hivecommons/cncf-sandbox-onboarding/pull/63))
 
 **Evidence:**
 
-_Groups.io list name/link._
+- Groups.io list: `cncf-hive-commons-maintainers@lists.cncf.io` — https://lists.cncf.io/g/cncf-hive-commons-maintainers (public group page returned HTTP 200 on 2026-10-12; description "Hive Commons Maintainers mailing list"; subgroup of `main` on `lists.cncf.io`; started 2026-10-05 09:27 UTC; 13 members at time of check).
+- CNCF staff confirmation: Riaan Kleinhans on [cncf/foundation#1550](https://github.com/cncf/foundation/pull/1550#issuecomment-5992438884) (2026-10-05) — "Maintainers have also been added to the project maintainers mailing list and CNCF service desk."
+- The list's addition to `maintainers@cncf.io` is tracked separately in `groupsio-maintainers-list` (#3, closed 2026-10-05).
 
 ### groupsio-maintainers-list
 
@@ -489,11 +495,13 @@ _Confirmation complete._
 CNCF staff sends a welcome email confirming maintainer mailing list and Service Desk access.
 <!-- field-guide:end -->
 
-- [ ] CNCF staff: send a welcome email confirming maintainer list access <!-- checklist:welcome-email --> (Issue: [#2](https://github.com/hivecommons/cncf-sandbox-onboarding/issues/2))
+- [x] CNCF staff: send a welcome email confirming maintainer list access <!-- checklist:welcome-email --> (PR: [#63](https://github.com/hivecommons/cncf-sandbox-onboarding/pull/63))
 
 **Evidence:**
 
-_Date welcome email received._
+- CNCF staff confirmed maintainer list and Service Desk access in writing on 2026-10-05: Riaan Kleinhans on [cncf/foundation#1550](https://github.com/cncf/foundation/pull/1550#issuecomment-5992438884) — "Maintainers have also been added to the project maintainers mailing list and CNCF service desk."
+- Corresponding list is live: `cncf-hive-commons-maintainers@lists.cncf.io` (https://lists.cncf.io/g/cncf-hive-commons-maintainers, started 2026-10-05 09:27 UTC); see `groupsio-list` (#4).
+- Maintainer roster used for access is [hivecommons/.project maintainers.yaml](https://github.com/hivecommons/.project/blob/main/maintainers.yaml), picked up in [project-maintainers-.project.csv](https://github.com/cncf/foundation/blob/main/project-maintainers-.project.csv?plain=1#L1435).
 
 ## Final review
 

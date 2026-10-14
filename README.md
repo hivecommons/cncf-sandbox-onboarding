@@ -15,8 +15,8 @@ This repository helps you track and complete [CNCF Sandbox onboarding](https://g
 ## Onboarding progress
 
 <!-- checklist-progress:start -->
-> **Onboarding progress:** **25 / 36** items complete (69%)  
-> `██████████████░░░░░░` 69%
+> **Onboarding progress:** **28 / 36** items complete (78%)  
+> `████████████████░░░░` 78%
 <!-- checklist-progress:end -->
 
 ## Onboarding checklist
@@ -32,7 +32,7 @@ Each row links to the matching section in [ONBOARDING.md](ONBOARDING.md). A PR w
 - ✅ [Review the project proposal process and requirements](ONBOARDING.md#project-proposal-process) (PR: [#51](https://github.com/hivecommons/cncf-sandbox-onboarding/pull/51))
 - ✅ [Review services available for your project at the CNCF](ONBOARDING.md#cncf-services-review) (PR: [#45](https://github.com/hivecommons/cncf-sandbox-onboarding/pull/45))
 - ✅ [Review the online program guidelines](ONBOARDING.md#online-program-guidelines) (PR: [#54](https://github.com/hivecommons/cncf-sandbox-onboarding/pull/54))
-- ⬜ [Review the telemetry data collection and usage policy](ONBOARDING.md#telemetry-policy-review) (Issue: [#28](https://github.com/hivecommons/cncf-sandbox-onboarding/issues/28))
+- ✅ [Review the telemetry data collection and usage policy](ONBOARDING.md#telemetry-policy-review) (PR: [#63](https://github.com/hivecommons/cncf-sandbox-onboarding/pull/63))
 - ✅ [Optional: book time with CNCF staff](ONBOARDING.md#cncf-staff-office-hours) (Issue: [#27](https://github.com/hivecommons/cncf-sandbox-onboarding/issues/27))
 - ✅ [Move the project to its own separate neutral GitHub organization](ONBOARDING.md#neutral-github-org) (PR: [#39](https://github.com/hivecommons/cncf-sandbox-onboarding/pull/39))
 - ⬜ [Accept the invite to join the CNCF GitHub Enterprise account](ONBOARDING.md#ghe-invite-accepted) (Issue: [#25](https://github.com/hivecommons/cncf-sandbox-onboarding/issues/25))
@@ -56,9 +56,9 @@ Each row links to the matching section in [ONBOARDING.md](ONBOARDING.md). A PR w
 - ⬜ [CNCF staff: activate the project in the LFX Project Control Center](ONBOARDING.md#lfx-pcc-activation) (Issue: [#7](https://github.com/hivecommons/cncf-sandbox-onboarding/issues/7))
 - ✅ [CNCF staff: add the project to the Cloud Native Landscape](ONBOARDING.md#landscape-listing-onboarding) (PR: [#57](https://github.com/hivecommons/cncf-sandbox-onboarding/pull/57))
 - ⬜ [CNCF staff: add the maintainers team to the license scanner](ONBOARDING.md#license-scanner-team) (Issue: [#5](https://github.com/hivecommons/cncf-sandbox-onboarding/issues/5))
-- ⬜ [CNCF staff: create a groups.io project maintainer list in PCC](ONBOARDING.md#groupsio-list) (Issue: [#4](https://github.com/hivecommons/cncf-sandbox-onboarding/issues/4))
+- ✅ [CNCF staff: create a groups.io project maintainer list in PCC](ONBOARDING.md#groupsio-list) (PR: [#63](https://github.com/hivecommons/cncf-sandbox-onboarding/pull/63))
 - ✅ [CNCF staff: add the project's groups.io list to maintainers@cncf.io](ONBOARDING.md#groupsio-maintainers-list) (Issue: [#3](https://github.com/hivecommons/cncf-sandbox-onboarding/issues/3))
-- ⬜ [CNCF staff: send a welcome email confirming maintainer list access](ONBOARDING.md#welcome-email) (Issue: [#2](https://github.com/hivecommons/cncf-sandbox-onboarding/issues/2))
+- ✅ [CNCF staff: send a welcome email confirming maintainer list access](ONBOARDING.md#welcome-email) (PR: [#63](https://github.com/hivecommons/cncf-sandbox-onboarding/pull/63))
 - ⬜ [Final review: confirm all items complete and request sign-off](ONBOARDING.md#onboarding-complete) (Issue: [#1](https://github.com/hivecommons/cncf-sandbox-onboarding/issues/1))
 
 <!-- onboarding-dashboard:end -->
