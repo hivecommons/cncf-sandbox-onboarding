@@ -86,9 +86,7 @@ Transfer any existing trademark and logo assets to the Linux Foundation via the 
 
 **Evidence:**
 
-- Status: done as of 2026-10-15.
-- Project Contribution Agreement signed by @clubanderson on 2026-10-15 (per project lead).
-- CNCF staff (@riaankleinhans) confirmed CLOMonitor and LFX PCC are created after CA signature — see [cncf/sandbox#516 comment](https://github.com/cncf/sandbox/issues/516#issuecomment-6175873690).
+- Trademark and logo assets transferred to the Linux Foundation — confirmed by @clubanderson 2026-10-15.
 
 ## Review and understand other documents
 
