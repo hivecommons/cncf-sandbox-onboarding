@@ -15,8 +15,8 @@ This repository helps you track and complete [CNCF Sandbox onboarding](https://g
 ## Onboarding progress
 
 <!-- checklist-progress:start -->
-> **Onboarding progress:** **29 / 36** items complete (81%)  
-> `████████████████░░░░` 81%
+> **Onboarding progress:** **30 / 36** items complete (83%)  
+> `█████████████████░░░` 83%
 <!-- checklist-progress:end -->
 
 ## Onboarding checklist
@@ -27,7 +27,7 @@ Each row links to the matching section in [ONBOARDING.md](ONBOARDING.md). A PR w
 - ✅ [Review and understand the CNCF IP Policy](ONBOARDING.md#ip-policy-review) (PR: [#50](https://github.com/hivecommons/cncf-sandbox-onboarding/pull/50))
 - ✅ [Review and understand the CNCF Third Party License Policy](ONBOARDING.md#license-policy-review) (PR: [#54](https://github.com/hivecommons/cncf-sandbox-onboarding/pull/54))
 - ✅ [Review and understand the LF trademark guidelines](ONBOARDING.md#trademark-guidelines-review) (PR: [#46](https://github.com/hivecommons/cncf-sandbox-onboarding/pull/46))
-- ⬜ [Transfer trademark and logo assets to the Linux Foundation](ONBOARDING.md#trademark-transfer) (Issue: [#33](https://github.com/hivecommons/cncf-sandbox-onboarding/issues/33))
+- ✅ [Transfer trademark and logo assets to the Linux Foundation](ONBOARDING.md#trademark-transfer) (PR: [#66](https://github.com/hivecommons/cncf-sandbox-onboarding/pull/66))
 - ✅ [Review the Technical Leadership Principles](ONBOARDING.md#technical-leadership-principles) (PR: [#53](https://github.com/hivecommons/cncf-sandbox-onboarding/pull/53))
 - ✅ [Review the project proposal process and requirements](ONBOARDING.md#project-proposal-process) (PR: [#51](https://github.com/hivecommons/cncf-sandbox-onboarding/pull/51))
 - ✅ [Review services available for your project at the CNCF](ONBOARDING.md#cncf-services-review) (PR: [#45](https://github.com/hivecommons/cncf-sandbox-onboarding/pull/45))
