@@ -82,7 +82,7 @@ Review the [Linux Foundation trademark guidelines](https://www.linuxfoundation.o
 Transfer any existing trademark and logo assets to the Linux Foundation via the Project Contribution Agreement. CNCF staff sends this document to the contact emails listed in your Sandbox application.
 <!-- field-guide:end -->
 
-- [x] Transfer trademark and logo assets to the Linux Foundation <!-- checklist:trademark-transfer --> (Issue: [#33](https://github.com/hivecommons/cncf-sandbox-onboarding/issues/33))
+- [x] Transfer trademark and logo assets to the Linux Foundation <!-- checklist:trademark-transfer --> (PR: [#66](https://github.com/hivecommons/cncf-sandbox-onboarding/pull/66))
 
 **Evidence:**
 
