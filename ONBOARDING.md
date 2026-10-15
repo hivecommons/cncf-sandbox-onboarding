@@ -82,11 +82,13 @@ Review the [Linux Foundation trademark guidelines](https://www.linuxfoundation.o
 Transfer any existing trademark and logo assets to the Linux Foundation via the Project Contribution Agreement. CNCF staff sends this document to the contact emails listed in your Sandbox application.
 <!-- field-guide:end -->
 
-- [ ] Transfer trademark and logo assets to the Linux Foundation <!-- checklist:trademark-transfer --> (Issue: [#33](https://github.com/hivecommons/cncf-sandbox-onboarding/issues/33))
+- [x] Transfer trademark and logo assets to the Linux Foundation <!-- checklist:trademark-transfer --> (Issue: [#33](https://github.com/hivecommons/cncf-sandbox-onboarding/issues/33))
 
 **Evidence:**
 
-_Date Contribution Agreement was signed, or status if pending._
+- Status: done as of 2026-10-15.
+- Project Contribution Agreement signed by @clubanderson on 2026-10-15 (per project lead).
+- CNCF staff (@riaankleinhans) confirmed CLOMonitor and LFX PCC are created after CA signature — see [cncf/sandbox#516 comment](https://github.com/cncf/sandbox/issues/516#issuecomment-6175873690).
 
 ## Review and understand other documents
 
