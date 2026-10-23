@@ -63,7 +63,7 @@ Review the [CNCF Allowlist License Policy](https://github.com/cncf/foundation/bl
 ### trademark-guidelines-review
 
 <!-- field-guide:start -->
-Review the [Linux Foundation trademark guidelines](https://www.linuxfoundation.org/trademark-usage/). Let the TOC know if you plan to change your project name.
+Review the [Linux Foundation trademark guidelines](https://www.linuxfoundation.org/legal/trademark-usage). Let the TOC know if you plan to change your project name.
 <!-- field-guide:end -->
 
 - [x] Review and understand the LF trademark guidelines <!-- checklist:trademark-guidelines-review --> (PR: [#46](https://github.com/hivecommons/cncf-sandbox-onboarding/pull/46))
@@ -120,14 +120,14 @@ Read the [CNCF project proposal process and requirements](https://github.com/cnc
 ### cncf-services-review
 
 <!-- field-guide:start -->
-Read about [services available to CNCF projects](https://contribute.cncf.io/resources/project-services/).
+Read about [services available to CNCF projects](https://contribute.cncf.io/resources/services/).
 <!-- field-guide:end -->
 
 - [x] Review services available for your project at the CNCF <!-- checklist:cncf-services-review --> (PR: [#45](https://github.com/hivecommons/cncf-sandbox-onboarding/pull/45))
 
 **Evidence:**
 
-- Maintainer @clubanderson reviewed https://www.cncf.io/services-for-projects/ (and the Sandbox services summary) on 2026-10-02 — attested.
+- Maintainer @clubanderson reviewed https://contribute.cncf.io/resources/services/ (and the Sandbox services summary) on 2026-10-02 — attested.
 
 ### online-program-guidelines
 
@@ -338,7 +338,7 @@ Add the Linux Foundation footer to your website per [LF branding guidelines](htt
 
 **Evidence:**
 
-- Verified live footer on https://hivecommons.dev/ on 2026-10-02: the page includes "© 2026 The Linux Foundation / The Hive Commons authors" and the Linux Foundation trademark sentence with a link to https://www.linuxfoundation.org/trademark-usage.
+- Verified live footer on https://hivecommons.dev/ on 2026-10-02: the page includes "© 2026 The Linux Foundation / The Hive Commons authors" and the Linux Foundation trademark sentence with a link to https://www.linuxfoundation.org/legal/trademark-usage.
 - Source fix merged in [hivecommons/hivecommons.github.io#51](https://github.com/hivecommons/hivecommons.github.io/pull/51), updating the shared footer markup on the site pages.
 
 ### governance-doc
@@ -357,7 +357,7 @@ Document written, open governance in a `GOVERNANCE.md` file at the root of your 
 ### security-doc
 
 <!-- field-guide:start -->
-Document a security policy in a `SECURITY.md` file at the root of your repo. See [CNCF security guidelines](https://contribute.cncf.io/maintainers/security/security-guidelines/#3-securitymd).
+Document a security policy in a `SECURITY.md` file at the root of your repo. See [CNCF security guidelines](https://contribute.cncf.io/projects/best-practices/security/security-hygiene/).
 <!-- field-guide:end -->
 
 - [x] Start a SECURITY.md security policy <!-- checklist:security-doc --> (PR: [#42](https://github.com/hivecommons/cncf-sandbox-onboarding/pull/42))
@@ -378,8 +378,8 @@ Register and begin working toward an [OpenSSF Best Practices Badge](https://www.
 
 **Evidence:**
 
-- Verified the [OpenSSF Best Practices badge](https://www.bestpractices.dev/projects/14261) in [hivecommons/hive README.md](https://github.com/hivecommons/hive/blob/v5/README.md).
-- Fetched `https://www.bestpractices.dev/projects/14261.json` on 2026-10-02: project `hive`, `badge_level` = `passing`, `tiered_percentage` = `115`, `updated_at` = `2026-09-11T13:55:59.153Z`.
+- Verified the [OpenSSF Best Practices badge](https://www.bestpractices.dev/en/projects/14261) in [hivecommons/hive README.md](https://github.com/hivecommons/hive/blob/v5/README.md).
+- Fetched `https://www.bestpractices.dev/en/projects/14261.json` on 2026-10-02: project `hive`, `badge_level` = `passing`, `tiered_percentage` = `115`, `updated_at` = `2026-09-11T13:55:59.153Z`.
 
 ### license-scan-import
 

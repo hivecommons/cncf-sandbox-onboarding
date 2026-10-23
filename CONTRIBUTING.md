@@ -111,4 +111,4 @@ Issues created by the bootstrap script use these labels:
 
 - [CNCF Sandbox onboarding issue this template is based on](https://github.com/cncf/sandbox/issues/487)
 - [CNCF Sandbox repository](https://github.com/cncf/sandbox)
-- [CNCF project services](https://contribute.cncf.io/resources/project-services/)
+- [CNCF project services](https://contribute.cncf.io/resources/services/)
