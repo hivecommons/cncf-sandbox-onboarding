@@ -96,7 +96,7 @@ Need a one-time full summary instead (e.g. the first update, or to catch up if a
 
 - [CNCF Sandbox onboarding issue this template is based on](https://github.com/cncf/sandbox/issues/487)
 - [CNCF Sandbox repository](https://github.com/cncf/sandbox)
-- [CNCF project services](https://contribute.cncf.io/resources/project-services/)
+- [CNCF project services](https://contribute.cncf.io/resources/services/)
 
 ## License
 
