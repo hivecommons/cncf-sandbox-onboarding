@@ -242,8 +242,8 @@ If your project has its own domain(s), transfer them to the CNCF. LF Contact: `p
 _Status (not complete — stays open until the transfer is confirmed by LF/CNCF):_
 
 - Domain in scope: `hivecommons.dev` (project website https://hivecommons.dev, docs at `docs.hivecommons.dev`). RDAP check 2026-10-15: registrar Tucows Domains Inc, registered 2026-09-02, last changed 2026-09-07 (before TOC acceptance), DNS on Cloudflare — i.e. still held by the maintainers, not yet under LF/CNCF ownership.
-- No transfer request is on record yet in [cncf/sandbox#516](https://github.com/cncf/sandbox/issues/516) or in [#22](https://github.com/hivecommons/cncf-sandbox-onboarding/issues/22).
-- **Next step (project):** email `projects@cncf.io` (Project Selection: CNCF) to request the `hivecommons.dev` transfer to the Linux Foundation and record the ticket/thread here; LF typically coordinates the registrar transfer after the Contributor Agreement is signed.
+- Transfer request emailed to `projects@cncf.io` on **2026-10-28**, as recorded in the [project update on cncf/sandbox#545](https://github.com/cncf/sandbox/issues/545#issuecomment-6503659284).
+- **Next step (CNCF/LF):** process the request and confirm the transfer. The request has already been sent; the transfer itself is not yet confirmed.
 
 ### artwork-pr
 
@@ -327,6 +327,7 @@ Explicitly reference the CNCF Code of Conduct (or your adopted version) in the p
 - Verified the CNCF Code of Conduct reference in [hivecommons/hive README.md](https://github.com/hivecommons/hive/blob/v5/README.md) and [src/README.md](https://github.com/hivecommons/hive/blob/v5/src/README.md) on branch `v5`.
 - Verified [CODE_OF_CONDUCT.md](https://github.com/hivecommons/hive/blob/v5/CODE_OF_CONDUCT.md) adopts the CNCF Code of Conduct at https://github.com/cncf/foundation/blob/main/code-of-conduct.md.
 - Verified the website repository [README.md](https://github.com/hivecommons/hivecommons.github.io/blob/main/README.md) references the CNCF Code of Conduct after [hivecommons/hivecommons.github.io#50](https://github.com/hivecommons/hivecommons.github.io/pull/50) merged; Hive root README fix was [hivecommons/hive#10039](https://github.com/hivecommons/hive/pull/10039).
+- 2026-10-28: the README rewrite in [hivecommons/hive#14603](https://github.com/hivecommons/hive/pull/14603) dropped the link; restored (and "candidate" wording replaced with "sandbox project" after the Contributor Agreement was signed) in [hivecommons/hive#15100](https://github.com/hivecommons/hive/pull/15100).
 
 ### lf-footer
 
@@ -379,7 +380,7 @@ Register and begin working toward an [OpenSSF Best Practices Badge](https://www.
 **Evidence:**
 
 - Verified the [OpenSSF Best Practices badge](https://www.bestpractices.dev/en/projects/14261) in [hivecommons/hive README.md](https://github.com/hivecommons/hive/blob/v5/README.md).
-- Fetched `https://www.bestpractices.dev/en/projects/14261.json` on 2026-10-02: project `hive`, `badge_level` = `passing`, `tiered_percentage` = `115`, `updated_at` = `2026-09-11T13:55:59.153Z`.
+- Fetched `https://www.bestpractices.dev/projects/14261.json` on 2026-10-02: project `hive`, `badge_level` = `passing`, `tiered_percentage` = `115`, `updated_at` = `2026-09-11T13:55:59.153Z`.
 
 ### license-scan-import
 
@@ -396,7 +397,7 @@ _Status (not complete — item stays open until the CNCF FOSSA project exists an
 - Service chosen: **CNCF FOSSA**. Import requested from CNCF staff on 2026-10-02 via [cncf/sandbox#516](https://github.com/cncf/sandbox/issues/516#issuecomment-5956289195); re-requested 2026-10-14 ([comment](https://github.com/cncf/sandbox/issues/516#issuecomment-6175392413)). CNCF staff reply 2026-10-14 ([comment](https://github.com/cncf/sandbox/issues/516#issuecomment-6175873690)): @RobertKielty will reach out about the FOSSA/Snyk import.
 - Project-side wiring is done: FOSSA workflow and README badge merged in [hivecommons/hive#10044](https://github.com/hivecommons/hive/pull/10044) ([`.github/workflows/fossa.yml`](https://github.com/hivecommons/hive/blob/v5/.github/workflows/fossa.yml), pinned `fossas/fossa-action`, project slug `git+github.com/hivecommons/hive`).
 - Verified 2026-10-15: the FOSSA project does not exist yet — `https://app.fossa.com/api/projects/git%2Bgithub.com%2Fhivecommons%2Fhive` returns 404 "Project not found", and the `fossa.yml` workflow runs on `v5` take the "Skip when FOSSA_API_KEY is not configured" path (e.g. [run 38832873617](https://github.com/hivecommons/hive/actions/runs/38832873617)) because CNCF has not yet issued the `FOSSA_API_KEY`.
-- **Blocked on:** CNCF importing the in-scope repos (`hivecommons/hive`, `hivecommons/docs`) into the CNCF FOSSA organization and issuing the API key; tracked in [#11](https://github.com/hivecommons/cncf-sandbox-onboarding/issues/11).
+- **Remaining:** confirm CNCF FOSSA access, import all in-scope repositories, and verify an actual scan; tracked in [#11](https://github.com/hivecommons/cncf-sandbox-onboarding/issues/11). Reconcile repository scope against [`.project/project.yaml`](https://github.com/hivecommons/.project/blob/main/project.yaml), not just `hive` and `docs`.
 
 ## CNCF staff tasks (track and follow up)
 
@@ -415,6 +416,8 @@ CNCF staff adds the project to [DevStats](https://all.devstats.cncf.io/).
 - Hive Commons DevStats dashboard is live at https://hivecommons.devstats.cncf.io/ (verified HTTP 200 on 2026-10-05; dashboard path https://hivecommons.devstats.cncf.io/d/8/dashboards?orgId=1 also returned HTTP 200).
 - Public `cncf/devstats` configuration includes the Hive Commons project wiring, including `devel/project_names.sh` (`project_names["hivecommons"]="Hive Commons"`) and `grafana/hivecommons/` assets.
 - Tracker issue [#10](https://github.com/hivecommons/cncf-sandbox-onboarding/issues/10) was closed with the verification comment on 2026-10-05, and `sync-checklist.yml` marked the checklist row complete.
+- CNCF staff confirmation: Łukasz Gryglicki (@lukaszgryglicki) ticked the DevStats item on the official onboarding issue — "DevStats instance added" ([cncf/sandbox#545 comment, 2026-10-29](https://github.com/cncf/sandbox/issues/545#issuecomment-6488039914)). The item is now checked in the staff section of #545.
+- Repo coverage re-verified 2026-10-29 via the DevStats API (`POST https://devstats.cncf.io/api/v1`, `Health` → `{"project":"hivecommons","db_name":"hivecommons","events":292476}`; `Repos` with `repository_group: ["All"]`): all 19 current `hivecommons` org repos are tracked (`hive`, `infra`, `.github`, `.project`, `pluk`, `promptargs`, `rationguard`, `hotshot`, `crux`, `dibs`, `docs`, `hivecommons.github.io`, `hive-redirect`, `homebrew-hive`, `homebrew-repo`, `cncf-sandbox-onboarding`, `spektacular`, `spektacular-website`, plus retired `nidus`/`spektacular-redirect`), and pre-transfer history is preserved under the `kubestellar/*` origins (`kubestellar/hive`, `pluk`, `promptargs`, `rationguard`, `hotshot`, `dibs`, …). Only `hivecommons/hive-demo` (created 2026-10-28) was not yet listed; DevStats tracks the org, so it should appear on the next repo sync — re-check in a week.
 
 ### clomonitor
 
@@ -422,15 +425,15 @@ CNCF staff adds the project to [DevStats](https://all.devstats.cncf.io/).
 CNCF staff adds the project to [CLOMonitor](https://clomonitor.io/).
 <!-- field-guide:end -->
 
-- [ ] CNCF staff: add the project to CLOMonitor <!-- checklist:clomonitor --> (Issue: [#9](https://github.com/hivecommons/cncf-sandbox-onboarding/issues/9))
+- [x] CNCF staff: add the project to CLOMonitor <!-- checklist:clomonitor --> (PR: [#72](https://github.com/hivecommons/cncf-sandbox-onboarding/pull/72))
 
 **Evidence:**
 
-_Status (not complete — staff item):_
+_Status: complete, confirmed by CNCF on 2026-10-29._
 
-- Requested from CNCF staff 2026-10-14 ([cncf/sandbox#516 comment](https://github.com/cncf/sandbox/issues/516#issuecomment-6175392413)). Staff reply 2026-10-14 ([comment](https://github.com/cncf/sandbox/issues/516#issuecomment-6175873690)): CLOMonitor onboarding is done by the CNCF team off the official onboarding issue, which is created once the Contributor Agreement (CA) is signed.
-- Landscape entry already carries `clomonitor_name: hive` ([cncf/landscape#5181](https://github.com/cncf/landscape/pull/5181)). Verified 2026-10-15: `https://clomonitor.io/api/projects/cncf/hive` and `/cncf/hive-commons` both still return 404.
-- **Blocked on:** CNCF Contributor Agreement signature → official onboarding issue → CNCF adds the project; tracked in [#9](https://github.com/hivecommons/cncf-sandbox-onboarding/issues/9).
+- CNCF staff confirmed: "Project has been added to CLOMonitor" ([cncf/sandbox#545 comment](https://github.com/cncf/sandbox/issues/545#issuecomment-6506498217)).
+- Registration merged in [cncf/clomonitor#1946](https://github.com/cncf/clomonitor/pull/1946).
+- Live project: [Hive Commons on CLOMonitor](https://clomonitor.io/projects/cncf/hivecommons). The [public API record](https://clomonitor.io/api/projects/cncf/hivecommons), verified 2026-10-29, lists `hivecommons/hive`. The project slug is `hivecommons`, not `hive` or `hive-commons`.
 
 ### lfx-insights-onboarding
 
@@ -457,7 +460,7 @@ CNCF staff activates the project in the LFX Project Control Center (PCC).
 _Status (not complete — staff item):_
 
 - Requested from CNCF staff 2026-10-14 ([cncf/sandbox#516 comment](https://github.com/cncf/sandbox/issues/516#issuecomment-6175392413)). Staff reply 2026-10-14 ([comment](https://github.com/cncf/sandbox/issues/516#issuecomment-6175873690)): LF Legal activates the project in PCC as soon as the Contributor Agreement (CA) is signed.
-- **Blocked on:** CNCF Contributor Agreement signature (LF Legal); tracked in [#7](https://github.com/hivecommons/cncf-sandbox-onboarding/issues/7).
+- The Contribution Agreement is signed: [cncf/sandbox#516](https://github.com/cncf/sandbox/issues/516) is closed with `contribution-agreement/signed`. **Remaining:** CNCF/LF activation confirmation on [cncf/sandbox#545](https://github.com/cncf/sandbox/issues/545); tracked in [#7](https://github.com/hivecommons/cncf-sandbox-onboarding/issues/7). Do not treat the signature as still outstanding.
 
 ### landscape-listing-onboarding
 

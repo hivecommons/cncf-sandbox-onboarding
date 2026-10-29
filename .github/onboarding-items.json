@@ -24,7 +24,7 @@
           "slug": "trademark-guidelines-review",
           "title": "Review and understand the LF trademark guidelines",
           "critical": true,
-          "guide": "Review the [Linux Foundation trademark guidelines](https://www.linuxfoundation.org/trademark-usage/). Let the TOC know if you plan to change your project name.",
+          "guide": "Review the [Linux Foundation trademark guidelines](https://www.linuxfoundation.org/legal/trademark-usage). Let the TOC know if you plan to change your project name.",
           "evidence_hint": "_Confirm review complete; note any planned name change (or N/A)._"
         },
         {
@@ -56,7 +56,7 @@
         {
           "slug": "cncf-services-review",
           "title": "Review services available for your project at the CNCF",
-          "guide": "Read about [services available to CNCF projects](https://contribute.cncf.io/resources/project-services/).",
+          "guide": "Read about [services available to CNCF projects](https://contribute.cncf.io/resources/services/).",
           "evidence_hint": "_Confirm review complete._"
         },
         {
@@ -173,7 +173,7 @@
         {
           "slug": "security-doc",
           "title": "Start a SECURITY.md security policy",
-          "guide": "Document a security policy in a `SECURITY.md` file at the root of your repo. See [CNCF security guidelines](https://contribute.cncf.io/maintainers/security/security-guidelines/#3-securitymd).",
+          "guide": "Document a security policy in a `SECURITY.md` file at the root of your repo. See [CNCF security guidelines](https://contribute.cncf.io/projects/best-practices/security/security-hygiene/).",
           "evidence_hint": "_Link to SECURITY.md._"
         },
         {
