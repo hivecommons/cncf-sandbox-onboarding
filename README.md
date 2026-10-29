@@ -2,7 +2,7 @@
 
 > **Project name:** Hive Commons
 >
-> **CNCF onboarding issue:** https://github.com/cncf/sandbox/issues/516
+> **CNCF onboarding issue:** https://github.com/cncf/sandbox/issues/545
 >
 > **Accepted (TOC vote):** 2026-09-28
 >
@@ -15,8 +15,8 @@ This repository helps you track and complete [CNCF Sandbox onboarding](https://g
 ## Onboarding progress
 
 <!-- checklist-progress:start -->
-> **Onboarding progress:** **30 / 36** items complete (83%)  
-> `█████████████████░░░` 83%
+> **Onboarding progress:** **31 / 36** items complete (86%)  
+> `█████████████████░░░` 86%
 <!-- checklist-progress:end -->
 
 ## Onboarding checklist
@@ -51,7 +51,7 @@ Each row links to the matching section in [ONBOARDING.md](ONBOARDING.md). A PR w
 - ✅ [Start an OpenSSF Best Practices Badge](ONBOARDING.md#openssf-badge) (PR: [#43](https://github.com/hivecommons/cncf-sandbox-onboarding/pull/43))
 - ⬜ [Import all project repos into a license scanning service](ONBOARDING.md#license-scan-import) (Issue: [#11](https://github.com/hivecommons/cncf-sandbox-onboarding/issues/11))
 - ✅ [CNCF staff: add the project to DevStats](ONBOARDING.md#devstats) (Issue: [#10](https://github.com/hivecommons/cncf-sandbox-onboarding/issues/10))
-- ⬜ [CNCF staff: add the project to CLOMonitor](ONBOARDING.md#clomonitor) (Issue: [#9](https://github.com/hivecommons/cncf-sandbox-onboarding/issues/9))
+- ✅ [CNCF staff: add the project to CLOMonitor](ONBOARDING.md#clomonitor) (PR: [#72](https://github.com/hivecommons/cncf-sandbox-onboarding/pull/72))
 - ✅ [CNCF staff: add the project to LFX Insights](ONBOARDING.md#lfx-insights-onboarding) (PR: [#38](https://github.com/hivecommons/cncf-sandbox-onboarding/pull/38))
 - ⬜ [CNCF staff: activate the project in the LFX Project Control Center](ONBOARDING.md#lfx-pcc-activation) (Issue: [#7](https://github.com/hivecommons/cncf-sandbox-onboarding/issues/7))
 - ✅ [CNCF staff: add the project to the Cloud Native Landscape](ONBOARDING.md#landscape-listing-onboarding) (PR: [#57](https://github.com/hivecommons/cncf-sandbox-onboarding/pull/57))
