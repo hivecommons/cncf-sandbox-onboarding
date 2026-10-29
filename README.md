@@ -2,7 +2,7 @@
 
 > **Project name:** Hive Commons
 >
-> **CNCF onboarding issue:** https://github.com/cncf/sandbox/issues/516
+> **CNCF onboarding issue:** https://github.com/cncf/sandbox/issues/545
 >
 > **Accepted (TOC vote):** 2026-09-28
 >
