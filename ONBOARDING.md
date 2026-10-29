@@ -425,7 +425,7 @@ CNCF staff adds the project to [DevStats](https://all.devstats.cncf.io/).
 CNCF staff adds the project to [CLOMonitor](https://clomonitor.io/).
 <!-- field-guide:end -->
 
-- [ ] CNCF staff: add the project to CLOMonitor <!-- checklist:clomonitor --> (Issue: [#9](https://github.com/hivecommons/cncf-sandbox-onboarding/issues/9))
+- [x] CNCF staff: add the project to CLOMonitor <!-- checklist:clomonitor --> (PR: [#72](https://github.com/hivecommons/cncf-sandbox-onboarding/pull/72))
 
 **Evidence:**
 
