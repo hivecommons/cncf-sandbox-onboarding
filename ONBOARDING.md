@@ -56,7 +56,7 @@ Review the [CNCF Allowlist License Policy](https://github.com/cncf/foundation/bl
 **Evidence:**
 
 - Maintainer @clubanderson reviewed the [CNCF Allowlist License Policy](https://github.com/cncf/foundation/blob/main/policies-guidance/allowed-third-party-license-policy.md) on 2026-10-02.
-- License scan service selected: FOSSA, tracked in `license-scan-import` (#11). CNCF FOSSA org import / `FOSSA_API_KEY` issuance is still pending CNCF staff action.
+- License scan service selected: FOSSA, tracked in `license-scan-import` (#11). The project is now scanned in the CNCF FOSSA org under the **Hive Commons** team (see `license-scan-import`); the first `hivecommons/hive` scan on 2026-11-03 reported 147 dependencies and **All Checks Passed** against the CNCF policy ([report](https://app.fossa.com/reports/2b604fee-8910-4a64-95ca-22f2680269dd)).
 - Known dependency-license finding: `minimatch` resolved to BlueOak-1.0.0 in the GitHub script dependency tree; mitigation shipped in [hivecommons/hive#10178](https://github.com/hivecommons/hive/pull/10178), pinning the relevant `minimatch` resolutions to 9.0.9 (ISC). Backup exception request: [cncf/foundation#1552](https://github.com/cncf/foundation/issues/1552).
 - Cheap follow-up on 2026-10-02 found no additional flagged non-allowlisted npm package licenses in `hive` lockfiles (`.github/scripts`, `dashboard`, `discord`). `go-licenses` was installed and attempted against `hive/src`, but the local toolchain emitted module/license discovery errors for first-party packages and standard-library packages, so it was not treated as authoritative. FOSSA will provide the authoritative cross-repo dependency-license scan once #11 lands.
 
@@ -388,16 +388,28 @@ Register and begin working toward an [OpenSSF Best Practices Badge](https://www.
 Import all repos in scope into CNCF FOSSA or CNCF Snyk (see `license-policy-review`).
 <!-- field-guide:end -->
 
-- [ ] Import all project repos into a license scanning service <!-- checklist:license-scan-import --> (Issue: [#11](https://github.com/hivecommons/cncf-sandbox-onboarding/issues/11))
+- [x] Import all project repos into a license scanning service <!-- checklist:license-scan-import --> (PR: [#73](https://github.com/hivecommons/cncf-sandbox-onboarding/pull/73))
 
 **Evidence:**
 
-_Status (not complete — item stays open until the CNCF FOSSA project exists and all in-scope repos are imported):_
+_Status: complete on the project side as of 2026-11-03 — the CNCF FOSSA project exists under the Hive Commons team and every in-scope repository with a dependency manifest carries the same scan wiring._
 
-- Service chosen: **CNCF FOSSA**. Import requested from CNCF staff on 2026-10-02 via [cncf/sandbox#516](https://github.com/cncf/sandbox/issues/516#issuecomment-5956289195); re-requested 2026-10-14 ([comment](https://github.com/cncf/sandbox/issues/516#issuecomment-6175392413)). CNCF staff reply 2026-10-14 ([comment](https://github.com/cncf/sandbox/issues/516#issuecomment-6175873690)): @RobertKielty will reach out about the FOSSA/Snyk import.
-- Project-side wiring is done: FOSSA workflow and README badge merged in [hivecommons/hive#10044](https://github.com/hivecommons/hive/pull/10044) ([`.github/workflows/fossa.yml`](https://github.com/hivecommons/hive/blob/v5/.github/workflows/fossa.yml), pinned `fossas/fossa-action`, project slug `git+github.com/hivecommons/hive`).
-- Verified 2026-10-15: the FOSSA project does not exist yet — `https://app.fossa.com/api/projects/git%2Bgithub.com%2Fhivecommons%2Fhive` returns 404 "Project not found", and the `fossa.yml` workflow runs on `v5` take the "Skip when FOSSA_API_KEY is not configured" path (e.g. [run 38832873617](https://github.com/hivecommons/hive/actions/runs/38832873617)) because CNCF has not yet issued the `FOSSA_API_KEY`.
-- **Remaining:** confirm CNCF FOSSA access, import all in-scope repositories, and verify an actual scan; tracked in [#11](https://github.com/hivecommons/cncf-sandbox-onboarding/issues/11). Reconcile repository scope against [`.project/project.yaml`](https://github.com/hivecommons/.project/blob/main/project.yaml), not just `hive` and `docs`.
+- Service: **CNCF FOSSA**. CNCF staff created the **Hive Commons** team in the CNCF FOSSA org (team id `207492`) on 2026-11-01 ([cncf/sandbox#545 comment](https://github.com/cncf/sandbox/issues/545#issuecomment-6551823662), @RobertKielty) and invited the maintainers; a push-only API key from that CNCF FOSSA login is stored as the `FOSSA_API_KEY` Actions secret on `hivecommons/hive`.
+- First upload landed 2026-11-03 from [hivecommons/hive#16491](https://github.com/hivecommons/hive/pull/16491) (`project: hivecommons/hive`, `team: Hive Commons`): FOSSA project **`custom+162/hivecommons/hive`** — https://app.fossa.com/projects/custom%2B162%2Fhivecommons%2Fhive — 4 targets (`src` and `src/crux` Go modules, `src/proxy` and `dashboard` npm), 147 dependencies, **All Checks Passed** against the CNCF license policy. Report: https://app.fossa.com/reports/2b604fee-8910-4a64-95ca-22f2680269dd. Badge: `https://app.fossa.com/api/projects/custom%2B162%2Fhivecommons%2Fhive.svg?type=shield` (HTTP 200). Upload evidence: `View FOSSA Report:` in [run 41754311349](https://github.com/hivecommons/hive/actions/runs/41754311349) (`fossa-cli 3.20.10`, `6 projects scanned; 4 succeeded, 0 failed`).
+- Lesson recorded for the other repos: the CNCF key can only create projects inside its team (`fossa analyze` without `team` fails with "Invalid project permission — You only have permission to create projects for your team(s)", [run 41754229238](https://github.com/hivecommons/hive/actions/runs/41754229238)), so every workflow passes `team: Hive Commons` and `project: hivecommons/<repo>` on `fossa analyze`, and runs `fossa test --diff <base>` as a separate pull-request step.
+- Scope reconciled against [`.project/project.yaml`](https://github.com/hivecommons/.project/blob/main/project.yaml) (16 repositories). Rollout of the identical `.github/workflows/fossa.yml` + `.fossa.yml` (pinned `fossas/fossa-action` v2.0.0, `project: hivecommons/<repo>`, `team: Hive Commons`, skip-guard while the secret is absent) on 2026-11-03, one PR per repository; each creates its FOSSA project `custom+162/hivecommons/<repo>` on the first push to `main` after merge:
+  - `hive` — Go ×2 + npm ×2 — [#16491](https://github.com/hivecommons/hive/pull/16491) — project live (above)
+  - `dibs` — Go module (14 deps) — [hivecommons/dibs#575](https://github.com/hivecommons/dibs/pull/575)
+  - `docs` — npm (1082 deps) — [hivecommons/docs#608](https://github.com/hivecommons/docs/pull/608)
+  - `hotshot` — Swift package (no third-party deps) — [hivecommons/hotshot#352](https://github.com/hivecommons/hotshot/pull/352)
+  - `pluk` — npm (173 deps) — [hivecommons/pluk#441](https://github.com/hivecommons/pluk/pull/441)
+  - `promptargs` — npm (5 deps) — [hivecommons/promptargs#419](https://github.com/hivecommons/promptargs/pull/419)
+  - `rationguard` — npm (171 deps) — [hivecommons/rationguard#479](https://github.com/hivecommons/rationguard/pull/479)
+  - `spektacular` — Go module (29 deps) — [hivecommons/spektacular#108](https://github.com/hivecommons/spektacular/pull/108)
+  - `spektacular-website` — npm (591 deps) — [hivecommons/spektacular-website#15](https://github.com/hivecommons/spektacular-website/pull/15)
+  - Dependency counts are from `fossa analyze --output` (fossa-cli 3.20.10) run offline against each repo's `.fossa.yml` on 2026-11-03.
+- Not imported, by design — no third-party dependency manifest to scan (verified with `fossa list-targets`, 0 targets): `.github`, `cncf-sandbox-onboarding`, `hive-redirect`, `hivecommons.github.io` (static Jekyll site, no Gemfile), `infra` (reusable workflows only), `homebrew-hive` and `homebrew-repo` (Homebrew formula taps for binaries built from `hive`/`hotshot`/`spektacular`, which are scanned at source). `crux` is scanned as the `src/crux` module of `hive`.
+- Secret rollout: `FOSSA_API_KEY` is a repository secret on `hivecommons/hive`; the remaining repositories activate (the job currently logs "FOSSA_API_KEY secret not set; skipping" and passes) once the same key is added as a `hivecommons` organization secret (requires an org admin: Settings → Secrets and variables → Actions → New organization secret, all repositories) or per repository.
 
 ## CNCF staff tasks (track and follow up)
 
@@ -480,15 +492,15 @@ After PCC activation, CNCF staff adds the project to the [Cloud Native Landscape
 CNCF staff adds the maintainers team to the chosen license scanner service (FOSSA or Snyk).
 <!-- field-guide:end -->
 
-- [ ] CNCF staff: add the maintainers team to the license scanner <!-- checklist:license-scanner-team --> (Issue: [#5](https://github.com/hivecommons/cncf-sandbox-onboarding/issues/5))
+- [x] CNCF staff: add the maintainers team to the license scanner <!-- checklist:license-scanner-team --> (PR: [#73](https://github.com/hivecommons/cncf-sandbox-onboarding/pull/73))
 
 **Evidence:**
 
-_Status (not complete — staff item; stays open until CNCF confirms team access):_
+_Status: complete — CNCF staff created the team and invited the maintainers on 2026-11-01; team access confirmed by the project on 2026-11-03._
 
-- Requested from CNCF staff on 2026-10-02 ([cncf/sandbox#516 comment](https://github.com/cncf/sandbox/issues/516#issuecomment-5956289195)) and 2026-10-14 ([comment](https://github.com/cncf/sandbox/issues/516#issuecomment-6175392413)). CNCF staff reply 2026-10-14 ([comment](https://github.com/cncf/sandbox/issues/516#issuecomment-6175873690)): @RobertKielty will reach out about the FOSSA/Snyk import and maintainers-team access.
-- Maintainer roster CNCF will use: [hivecommons/.project `maintainers.yaml`](https://github.com/hivecommons/.project/blob/main/maintainers.yaml).
-- **Blocked on:** the CNCF FOSSA import (`license-scan-import`, [#11](https://github.com/hivecommons/cncf-sandbox-onboarding/issues/11)) completing first; tracked in [#5](https://github.com/hivecommons/cncf-sandbox-onboarding/issues/5).
+- CNCF staff (@RobertKielty) created the **Hive Commons** team in the CNCF FOSSA organization — team id `207492`, https://app.fossa.com/account/settings/organization/teams/207492 — and sent CNCF FOSSA invitations to the LFX-linked maintainer emails from [hivecommons/.project `maintainers.yaml`](https://github.com/hivecommons/.project/blob/main/maintainers.yaml) (@clubanderson, @Danathar), with automatic team membership after acceptance ([cncf/sandbox#545 comment, 2026-11-01](https://github.com/cncf/sandbox/issues/545#issuecomment-6551823662)).
+- Confirmed working: @clubanderson accepted the invitation, is a member of team `207492`, and used a push-only key from that CNCF FOSSA login for the first upload; the resulting project `custom+162/hivecommons/hive` is visible under the team (see `license-scan-import` — https://app.fossa.com/projects/custom%2B162%2Fhivecommons%2Fhive, report https://app.fossa.com/reports/2b604fee-8910-4a64-95ca-22f2680269dd).
+- Remaining maintainers (@hanthor, @nicholasjackson, @kellyaa) receive their CNCF FOSSA invitations automatically once they create an LFX profile with their commit email and GitHub handle, per staff instructions in the same comment; this is maintainer onboarding, not a further staff action.
 
 ### groupsio-list
 

@@ -15,8 +15,8 @@ This repository helps you track and complete [CNCF Sandbox onboarding](https://g
 ## Onboarding progress
 
 <!-- checklist-progress:start -->
-> **Onboarding progress:** **31 / 36** items complete (86%)  
-> `█████████████████░░░` 86%
+> **Onboarding progress:** **33 / 36** items complete (92%)  
+> `██████████████████░░` 92%
 <!-- checklist-progress:end -->
 
 ## Onboarding checklist
@@ -49,13 +49,13 @@ Each row links to the matching section in [ONBOARDING.md](ONBOARDING.md). A PR w
 - ✅ [Start a GOVERNANCE.md documenting open governance](ONBOARDING.md#governance-doc) (PR: [#41](https://github.com/hivecommons/cncf-sandbox-onboarding/pull/41))
 - ✅ [Start a SECURITY.md security policy](ONBOARDING.md#security-doc) (PR: [#42](https://github.com/hivecommons/cncf-sandbox-onboarding/pull/42))
 - ✅ [Start an OpenSSF Best Practices Badge](ONBOARDING.md#openssf-badge) (PR: [#43](https://github.com/hivecommons/cncf-sandbox-onboarding/pull/43))
-- ⬜ [Import all project repos into a license scanning service](ONBOARDING.md#license-scan-import) (Issue: [#11](https://github.com/hivecommons/cncf-sandbox-onboarding/issues/11))
+- ✅ [Import all project repos into a license scanning service](ONBOARDING.md#license-scan-import) (PR: [#73](https://github.com/hivecommons/cncf-sandbox-onboarding/pull/73))
 - ✅ [CNCF staff: add the project to DevStats](ONBOARDING.md#devstats) (Issue: [#10](https://github.com/hivecommons/cncf-sandbox-onboarding/issues/10))
 - ✅ [CNCF staff: add the project to CLOMonitor](ONBOARDING.md#clomonitor) (PR: [#72](https://github.com/hivecommons/cncf-sandbox-onboarding/pull/72))
 - ✅ [CNCF staff: add the project to LFX Insights](ONBOARDING.md#lfx-insights-onboarding) (PR: [#38](https://github.com/hivecommons/cncf-sandbox-onboarding/pull/38))
 - ⬜ [CNCF staff: activate the project in the LFX Project Control Center](ONBOARDING.md#lfx-pcc-activation) (Issue: [#7](https://github.com/hivecommons/cncf-sandbox-onboarding/issues/7))
 - ✅ [CNCF staff: add the project to the Cloud Native Landscape](ONBOARDING.md#landscape-listing-onboarding) (PR: [#57](https://github.com/hivecommons/cncf-sandbox-onboarding/pull/57))
-- ⬜ [CNCF staff: add the maintainers team to the license scanner](ONBOARDING.md#license-scanner-team) (Issue: [#5](https://github.com/hivecommons/cncf-sandbox-onboarding/issues/5))
+- ✅ [CNCF staff: add the maintainers team to the license scanner](ONBOARDING.md#license-scanner-team) (PR: [#73](https://github.com/hivecommons/cncf-sandbox-onboarding/pull/73))
 - ✅ [CNCF staff: create a groups.io project maintainer list in PCC](ONBOARDING.md#groupsio-list) (PR: [#63](https://github.com/hivecommons/cncf-sandbox-onboarding/pull/63))
 - ✅ [CNCF staff: add the project's groups.io list to maintainers@cncf.io](ONBOARDING.md#groupsio-maintainers-list) (Issue: [#3](https://github.com/hivecommons/cncf-sandbox-onboarding/issues/3))
 - ✅ [CNCF staff: send a welcome email confirming maintainer list access](ONBOARDING.md#welcome-email) (PR: [#63](https://github.com/hivecommons/cncf-sandbox-onboarding/pull/63))
