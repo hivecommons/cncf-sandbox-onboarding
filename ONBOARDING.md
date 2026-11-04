@@ -388,7 +388,7 @@ Register and begin working toward an [OpenSSF Best Practices Badge](https://www.
 Import all repos in scope into CNCF FOSSA or CNCF Snyk (see `license-policy-review`).
 <!-- field-guide:end -->
 
-- [ ] Import all project repos into a license scanning service <!-- checklist:license-scan-import --> (Issue: [#11](https://github.com/hivecommons/cncf-sandbox-onboarding/issues/11))
+- [x] Import all project repos into a license scanning service <!-- checklist:license-scan-import --> (PR: [#73](https://github.com/hivecommons/cncf-sandbox-onboarding/pull/73))
 
 **Evidence:**
 
@@ -492,7 +492,7 @@ After PCC activation, CNCF staff adds the project to the [Cloud Native Landscape
 CNCF staff adds the maintainers team to the chosen license scanner service (FOSSA or Snyk).
 <!-- field-guide:end -->
 
-- [ ] CNCF staff: add the maintainers team to the license scanner <!-- checklist:license-scanner-team --> (Issue: [#5](https://github.com/hivecommons/cncf-sandbox-onboarding/issues/5))
+- [x] CNCF staff: add the maintainers team to the license scanner <!-- checklist:license-scanner-team --> (PR: [#73](https://github.com/hivecommons/cncf-sandbox-onboarding/pull/73))
 
 **Evidence:**
 
