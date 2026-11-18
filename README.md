@@ -15,8 +15,8 @@ This repository helps you track and complete [CNCF Sandbox onboarding](https://g
 ## Onboarding progress
 
 <!-- checklist-progress:start -->
-> **Onboarding progress:** **33 / 36** items complete (92%)  
-> `██████████████████░░` 92%
+> **Onboarding progress:** **34 / 36** items complete (94%)  
+> `███████████████████░` 94%
 <!-- checklist-progress:end -->
 
 ## Onboarding checklist
@@ -38,7 +38,7 @@ Each row links to the matching section in [ONBOARDING.md](ONBOARDING.md). A PR w
 - ✅ [Accept the invite to join the CNCF GitHub Enterprise account](ONBOARDING.md#ghe-invite-accepted) (PR: [#65](https://github.com/hivecommons/cncf-sandbox-onboarding/pull/65))
 - ✅ [Migrate Slack channels to the Kubernetes or CNCF Slack workspace](ONBOARDING.md#slack-migration) (PR: [#62](https://github.com/hivecommons/cncf-sandbox-onboarding/pull/62))
 - ✅ [Join the #maintainers-circle Slack channel](ONBOARDING.md#maintainers-circle-slack) (PR: [#44](https://github.com/hivecommons/cncf-sandbox-onboarding/pull/44))
-- ⬜ [Transfer project domain(s) to the CNCF](ONBOARDING.md#domain-transfer) (Issue: [#22](https://github.com/hivecommons/cncf-sandbox-onboarding/issues/22))
+- ✅ [Transfer project domain(s) to the CNCF](ONBOARDING.md#domain-transfer) (PR: [#74](https://github.com/hivecommons/cncf-sandbox-onboarding/pull/74))
 - ✅ [Submit a pull request with your artwork](ONBOARDING.md#artwork-pr) (PR: [#59](https://github.com/hivecommons/cncf-sandbox-onboarding/pull/59))
 - ✅ [Transfer website analytics to the CNCF](ONBOARDING.md#analytics-transfer) (PR: [#56](https://github.com/hivecommons/cncf-sandbox-onboarding/pull/56))
 - ✅ [Create a maintainer list and add it to the aggregated CNCF maintainer list](ONBOARDING.md#maintainer-list-pr) (PR: [#52](https://github.com/hivecommons/cncf-sandbox-onboarding/pull/52))

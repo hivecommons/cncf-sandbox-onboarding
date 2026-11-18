@@ -235,7 +235,7 @@ Join `#maintainers-circle` on CNCF Slack to find and share knowledge with other 
 If your project has its own domain(s), transfer them to the CNCF. LF Contact: `projects@cncf.io`. Project Selection: CNCF.
 <!-- field-guide:end -->
 
-- [ ] Transfer project domain(s) to the CNCF <!-- checklist:domain-transfer --> (Issue: [#22](https://github.com/hivecommons/cncf-sandbox-onboarding/issues/22))
+- [x] Transfer project domain(s) to the CNCF <!-- checklist:domain-transfer --> (PR: [#74](https://github.com/hivecommons/cncf-sandbox-onboarding/pull/74))
 
 **Evidence:**
 
