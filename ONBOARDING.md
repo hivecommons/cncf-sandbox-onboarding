@@ -239,11 +239,12 @@ If your project has its own domain(s), transfer them to the CNCF. LF Contact: `p
 
 **Evidence:**
 
-_Status (not complete — stays open until the transfer is confirmed by LF/CNCF):_
+_Status: complete — the operator states the domain transfer to the CNCF is complete (2026-11-18), corroborated by RDAP and an LF IT ticket._
 
-- Domain in scope: `hivecommons.dev` (project website https://hivecommons.dev, docs at `docs.hivecommons.dev`). RDAP check 2026-10-15: registrar Tucows Domains Inc, registered 2026-09-02, last changed 2026-09-07 (before TOC acceptance), DNS on Cloudflare — i.e. still held by the maintainers, not yet under LF/CNCF ownership.
+- Domain in scope: `hivecommons.dev` (project website https://hivecommons.dev, docs at `docs.hivecommons.dev`).
 - Transfer request emailed to `projects@cncf.io` on **2026-10-28**, as recorded in the [project update on cncf/sandbox#545](https://github.com/cncf/sandbox/issues/545#issuecomment-6503659284).
-- **Next step (CNCF/LF):** process the request and confirm the transfer. The request has already been sent; the transfer itself is not yet confirmed.
+- RDAP check 2026-11-18 for `hivecommons.dev`: registrar **Key-Systems LLC** (it was Tucows Domains Inc on 2026-10-15), registered 2026-09-02, last changed 2026-11-15, nameservers `ns1`-`ns4` at dnsimple-edge (CNCF's DNSimple, previously Cloudflare), status `client transfer prohibited` (registrar lock). The registrant is not shown in public RDAP, so it is not stated here.
+- Linux Foundation IT ticket IT-30390 (Project Support Services) describes the domain as recently transferred to the CNCF and records that the LF team added the A/MX records, created a project in LF PCC, and gave DNSimple zone access.
 
 ### artwork-pr
 
