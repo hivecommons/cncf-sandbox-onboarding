@@ -63,5 +63,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add ONBOARDING.md README.md
-          git commit -m "docs: link checklist items to PR #${{ github.event.pull_request.number }} [skip ci]"
+          git commit -s -m "docs: link checklist items to PR #${{ github.event.pull_request.number }} [skip ci]"
           git push
